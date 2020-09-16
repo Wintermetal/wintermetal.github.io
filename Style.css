@@ -12,12 +12,6 @@ a {
 a :visited {
     color: #23272a;
 }
-.a {
-    color: #2c2f33;
-}
-.a :visited {
-    color: #23272a;
-}
 h1,
 h2,
 h3,
@@ -27,7 +21,7 @@ h6 {
   font-weight: 800 !important;
 }
 .navbar-logo {
-    height:50px
+    height:100px
 }
 
 .btn-xl {
