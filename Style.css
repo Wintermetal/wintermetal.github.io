@@ -12,6 +12,10 @@ a {
 a :visited {
     color: #23272a;
 }
+.img-patch {
+    height: 200px;
+}
+
 h1,
 h2,
 h3,
