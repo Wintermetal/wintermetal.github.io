@@ -7,71 +7,176 @@
         <script type="text/javascript" src="index.js"></script>
         <link rel="stylesheet" type="text/css" href="Style.css">
         <link rel="icon" type="image/png" href="favicon.png">
+        <link href="./vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
     </head>
     <body>
-        <hr>
-        <h1>Pelisuunnitelmat</h1>
-        <hr>
-        <h2>Title:-</h2>
-        <h3>Time period: 1899</h3>
-        <h3>Setting: Finland</h3>
-        <h3>Type: PVP, FPS</h3>
-        <hr>
-        <h2>Weapons:</h2>
-        <h3>Primary:</h3>
-        <ul>
-            <li>[DK]Krag J&#248rgensen (1896)</li>
-            <li>[DK]Madsen M1888 Fors&#248gsrekylgev&#230r (1888)</li>
-            <li>[DK]Madsen M1896 Flaadens Rekylgev&#230r (1896)</li>
-            <li>[FR]Lebel mle 1886 (1886)</li>
-            <li>[UK]Lee-Enfield (1895)</li>
-            <li>[UK]Curtis 1866 (1866)</li>
-            <li>[RU]Mosin-Nagant Model91 (1891)</li>
-            <li>[HU]Mannlicher Model 1895 (1895)</li>
-            <li>[IT]Carcano Modello 1891 (1892)</li>
-            <li>[GE]Mauser Model 1898 (1898)</li>
-            <li>[FR]Berthier mle 1890 (1890)</li>
-            <li>[UK]Curtis 1866 (1866)</li>
-            <li>[UK]Martini-Henry Mk I-IV (1871)</li>
-            <li>[US]Whitworth Sniper (1860)</li>
-            <li>[US]Winchester Model 1873 (1873)</li>
-            <li>[US]Winchester Model 1887 (1887)</li>
-            <li>[US]Gibbs Carbine (1857)</li>
-            <li>[US]Evans Carbine (1873)</li>
-            <li>[US]Roper Revolving Shotgun (Unknown)</li>
-            <li>[BE]Liegeoise 1888 (1888)</li>
-            <li>[SP]Charola Y Anitua (1899)</li>
-        </ul>
-        <hr>
-        <h3>Secondary:</h3>
-        <ul>
-            <li>[US]Colt Single Action Army (1873)</li>
-            <li>[UK]Webley Mk VI (1887)</li>
-            <li>[FR]MAS Modele 1892 (1892)</li>
-            <li>[RU]Nagant Model 1895 (1895)</li>
-            <li>[HU]Gasser & Rast Model 1898 (1898)</li>
-            <li>[IT]Pistola a Rotazione Modello 1889 (1891)</li>
-            <li>[GE]Mauser c96 (1896)</li>
-            <li>[GE]Borchardt c93 (1893)</li>
-            <li>[UK]Mars Automatic Pistol (1897)</li>
-            <li>[BE]20-Shot Pinfire (Unknown)</li>
-            <li></li>
-        </ul>
-        <hr>
-        <h3>Melee:</h3>
-        <ul>
-            <li>Pattern 1897 infantry officer's sword (1897)</li>
-        </ul>
-        <hr>
-        <h3>Stationary:</h3>
-        <ul>
-            <li>[US]M1895 Colt-Browning MG (1895)</li>
-            <li>[HU]Skoda MG (1893)</li>
-            <li>[UK]Maxim MG (1895)</li>
-            <li>[US]Gatling Model 1861 (1861)</li>
-        </ul>
-        <hr>
-        <h3>Gadgets:</h3>
-        <ul>
-            <li>Flare gun: Hebel M1894 (1894)</li>
-        </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+            <div class="container">
+                <a href="./index.html">
+                    <img class="navbar-logo" src="./favicon.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./siege/Siege.html">Siege Database</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./bf1.html">Battlefield 1</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class="masthead text-center text-white">
+            <div class="masthead-content">
+                <div class="container">
+                    <h1 class="masthead-heading mb-0">Untitled 1899 game</h1>
+                    <h2 class="masthead-subheading mb-0">Time period: 1899</h2>
+                    <h2 class="masthead-subheading mb-0">Setting: Finland</h2>
+                    <h2 class="masthead-subheading mb-0">Type: PVP, FPS</h2>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">Primary Weapons:</h2>
+                            <ul>
+                                <li>[DK]Krag J&#248rgensen (1896)</li>
+                                <li>[DK]Madsen M1888 Fors&#248gsrekylgev&#230r (1888)</li>
+                                <li>[DK]Madsen M1896 Flaadens Rekylgev&#230r (1896)</li>
+                                <li>[FR]Berthier mle 1890 (1890)</li>
+                                <li>[FR]Lebel mle 1886 (1886)</li>
+                                <li>[UK]Matini-Henry Mk I-IV (1871)</li>
+                                <li>[UK]Lee-Enfield (1895)</li>
+                                <li>[UK]Curtis 1866 (1866)</li>
+                                <li>[RU]Mosin-Nagant Model 91 (1891)</li>
+                                <li>[HU]Mannlicher Model 1895 (1895)</li>
+                                <li>[IT]Carcano Modello 1891 (1892)</li>
+                                <li>[GE]Mauser Model 1898 (1898)</li>
+                                <li>[US]Whitworth Sniper (1860)</li>
+                                <li>[US]Winchester Model 1873 (1873)</li>
+                                <li>[US]Winchester Model 1887 (1887)</li>
+                                <li>[US]Gibbs Carbine (1857)</li>
+                                <li>[US]Evans Carbine (1873)</li>
+                                <li>[US]Roper Revolving Shotgun (Unknown)</li>
+                                <li>[US]Greene Carbine (1863)</li>
+                                <li>[US]Lindner Carbine (Unknown)</li>
+                                <li>[US]M1895 Lee Navy (1895)</li>
+                                <li>[BE]Liegeoise 1888 (1888)</li>
+                                <li>[NO]Larsen Falling Block (Unknown)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">Secondary Weapons:</h2>
+                            <ul>
+                                <li>[US]Colt Single Action Army (1873)</li>
+                                <li>[UK]Webley Mk VI (1887)</li>
+                                <li>[UK]Mars Automatic Pistol (1897)</li>
+                                <li>[FR]MAS Modele 1892 (1892)</li>
+                                <li>[RU]Nagant Model 1895 (1895)</li>
+                                <li>[HU]Gasser & Rast Model 1898 (1898)</li>
+                                <li>[IT]Pistola a Rotazione Modello 1889 (1889)</li>
+                                <li>[GE]Mauser c96 (1896)</li>
+                                <li>[GE]Borchardt c93 (1893)</li>
+                                <li>[BE]20-Shot Pinfire (Unknown)</li>
+                                <li>[SP]Charola Y Anitua (1899)</li>
+                                <li>[??]Cochran Turret Revolver (Unknown)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">Melee Weapons:</h2>
+                            <ul>
+                                <li>Pattern 1897 infantry officer's sword (1897)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">Stationary Weapons:</h2>
+                            <ul>
+                                <li>[US]M1895 Colt-Browning MG (1895)</li>
+                                <li>[HU]Skoda MG (1893)</li>
+                                <li>[UK]Maxim MG (1895)</li>
+                                <li>[US]Gatling Model 1861 (1861)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">Gadgets:</h2>
+                            <ul>
+                                <li>Flare gun: Hebel M1894 (1894)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="py-5 bg-black">
+            <div class="container">
+                <p class="m-0 text-center text-white small">&copy;Wintermetal 2019-2020</p>
+            </div>
+        </footer>
+    </body>
+</html>
