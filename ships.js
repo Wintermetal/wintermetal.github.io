@@ -155,258 +155,119 @@ let HMSship = [
     },
     {
         class: "A-class",
-        ship1: "HMS Acasta",
-        ship2: "HMS Achates",
-        ship3: "HMS Acheron",
+        ship1: "HMS Codrington",
+        ship2: "HMS Acasta",
+        ship3: "HMS Achates",
         ship4: "HMS Active",
-        ship5: "HMS Afridi",
-        ship6: "HMS Airedale",
-        ship7: "HMS Albrighton",
-        ship8: "HMS Aldenham",
-        ship9: "HMS Amazon",
-        ship10: "HMS Ambuscade",
-        ship11: "HMS Antelope",
-        ship12: "HMS Anthony",
-        ship13: "HMS Ardent",
-        ship14: "HMS Armada",
-        ship15: "HMS Arrow",
-        ship16: "HMS Ashanti",
-        ship17: "HMS Atherstone",
-        ship18: "HMS Avon Vale"
+        ship5: "HMS Antelope",
+        ship6: "HMS Anthony",
+        ship7: "HMS Ardent",
+        ship8: "HMS Arrow",
+        ship9: "HMS Acheron",
+        ship10: "HMS Saguenay",
+        ship11: "HMS Skeena"
     },
     {
         class: "B-class",
-        ship1: "HMS Badsworth",
-        ship2: "HMS Barfleur",
-        ship3: "HMS Basilisk",
-        ship4: "HMS Bath",
-        ship5: "HMS beagle",
-        ship6: "HMS Beaufort",
-        ship7: "HMS Bedouin",
-        ship8: "HMS Belmont",
-        ship9: "HMS Belvoir",
-        ship10: "HMS Beverley",
-        ship11: "HMS Bicester",
-        ship12: "HMS Blackmore",
-        ship13: "HMS Blanche",
-        ship14: "HMS Blankney",
-        ship15: "HMS Blean",
-        ship16: "HMS Bleasdale",
-        ship17: "HMS Bleancathra",
-        ship18: "HMS Boadicea",
-        ship19: "HMS Boreas",
-        ship20: "HMS Bradford",
-        ship21: "HMS Bramham",
-        ship22: "HMS Brazen",
-        ship23: "HMS Brecon",
-        ship24: "HMS Brighton",
-        ship25: "HMS Brilliant",
-        ship26: "HMS Broadway",
-        ship27: "HMS Brocklesby",
-        ship28: "HMS Broke",
-        ship29: "HMS Bulldog",
-        ship30: "HMS Burnham",
-        ship31: "HMS Burwell",
-        ship32: "HMS Buxton",
+        ship1: "HMS Keith",
+        ship2: "HMS Basilisk",
+        ship3: "HMS Beagle",
+        ship4: "HMS Blanche",
+        ship5: "HMS Boadicea",
+        ship6: "HMS Boreas",
+        ship7: "HMS Brazen",
+        ship8: "HMS Brilliant",
+        ship9: "HMS Bulldog"
     },
     {
         class: "C-class",
-        ship1: "HMS Caesar",
-        ship2: "HMS Caldwell",
-        ship3: "HMS Cambrian",
-        ship4: "HMS Campbeltown",
-        ship5: "HMS Caprice",
-        ship6: "HMS Carron",
-        ship7: "HMS Carysfort",
-        ship8: "HMS Cassandra",
-        ship9: "HMS Castleton",
-        ship10: "HMS Cavalier",
-        ship11: "HMS Cavendish",
-        ship12: "HMS Chaplet",
-        ship13: "HMS Charity",
-        ship14: "HMS Charlestown",
-        ship15: "HMS Chelsea",
-        ship16: "HMS Chequers",
-        ship17: "HMS Chesterfield",
-        ship18: "HMS Cheviot",
-        ship19: "HMS Chevron",
-        ship20: "HMS Chieftain",
-        ship21: "HMS Childers",
-        ship22: "HMS Chivalrous",
-        ship23: "HMS Churchill",
-        ship24: "HMS Clare",
-        ship25: "HMS Cleveland",
-        ship26: "HMS Codrington",
-        ship27: "HMS Constance",
-        ship28: "HMS Cossack",
-        ship29: "HMS Cottesmore",
-        ship30: "HMS Crescent",
-        ship32: "HMS Creole",
-        ship33: "HMS Crispin",
-        ship34: "HMS Croome",
-        ship35: "HMS Crusader"
+        ship1: "HMS Kempenfelt",
+        ship2: "HMS Comet",
+        ship3: "HMS Crusader",
+        ship4: "HMS Cygnet",
+        ship5: "HMS Crescent"
     },
     {
         class: "D-class",
-        ship1: "HMS Dainty",
-        ship2: "HMS Daring",
-        ship3: "HMS Decoy",
-        ship4: "HMS Defender",
-        ship5: "HMS Delight",
-        ship6: "HMS Derwent",
+        ship1: "HMS Duncan",
+        ship2: "HMS Dainty",
+        ship3: "HMS Daring",
+        ship4: "HMS Decoy",
+        ship5: "HMS Defender",
+        ship6: "HMS Delight",
         ship7: "HMS Diamond",
         ship8: "HMS Diana",
-        ship9: "HMS Duchess",
-        ship10: "HMS Dulverton",
-        ship11: "HMS Duncan"
+        ship9: "HMS Duchess"
     },
     {
         class: "E-class",
-        ship1: "HMS Echo",
-        ship2: "HMS Eclipse",
-        ship3: "HMS Edwards",
-        ship4: "HMS Eggesford",
-        ship5: "HMS Eglinton",
-        ship6: "HMS Electra",
-        ship7: "HMS Encounter",
-        ship8: "HMS Eridge",
-        ship9: "HMS Escapade",
-        ship10: "HMS Escort",
-        ship11: "HMS Esk",
-        ship12: "HMS Eskimo",
-        ship13: "HMS Evans",
-        ship14: "HMS Exmoor",
-        ship15: "HMS Exmouth",
-        ship16: "HMS Express"
+        ship1: "HMS Exmouth",
+        ship2: "HMS Echo",
+        ship3: "HMS Eclipse",
+        ship4: "HMS Electra",
+        ship5: "HMS Encounter",
+        ship6: "HMS Escapade",
+        ship7: "HMS Escort",
+        ship8: "HMS Esk",
+        ship9: "HMS Express"
     },
     {
         class: "F-class",
-        ship1: "HMS Fame",
-        ship2: "HMS Faulknor",
+        ship1: "HMS Faulknor",
+        ship2: "HMS Fame",
         ship3: "HMS Fearless",
-        ship4: "HMS Fernie",
-        ship5: "HMS Firedrake",
-        ship6: "HMS Foresight",
-        ship7: "HMS Forester",
-        ship8: "HMS Fortune",
-        ship9: "HMS Foxhound",
-        ship10: "HMS Fury"
+        ship4: "HMS Firedrake",
+        ship5: "HMS Foresight",
+        ship6: "HMS Forester",
+        ship7: "HMS Fortune",
+        ship8: "HMS Foxhound",
+        ship9: "HMS Fury"
     },
     {
         class: "G-class",
         ship1: "HMS Gallant",
         ship2: "HMS Garland",
-        ship3: "HMS Garth",
-        ship4: "HMS Georgetown",
-        ship5: "HMS Gipsy",
-        ship6: "HMS Glowworm",
-        ship7: "HMS Grafton",
-        ship8: "HMS Grenade",
-        ship9: "HMS Grenville",
-        ship10: "HMS Greyhound",
-        ship11: "HMS Griffin",
-        ship12: "HMS Grove",
-        ship13: "HMS Gurkha"
+        ship3: "HMS Gipsy",
+        ship4: "HMS Glowworm",
+        ship5: "HMS Grafton",
+        ship6: "HMS Grenade",
+        ship7: "HMS Grenville",
+        ship8: "HMS Greyhound",
+        ship9: "HMS Griffin"
     },
     {
         class: "H-class",
-        ship1: "HMS Haldon",
-        ship2: "HMS Hambledon",
-        ship3: "HMS Hamilton",
-        ship4: "HMS Hardy",
-        ship5: "HMS Harvester",
-        ship6: "HMS Hasty",
-        ship7: "HMS Havant",
-        ship8: "HMS Havelock",
-        ship9: "HMS Havock",
-        ship10: "HMS Haydon",
-        ship11: "HMS Hereward",
-        ship12: "HMS Hero",
+        ship1: "HMS Hardy",
+        ship2: "HMS Hasty",
+        ship3: "HMS Havock",
+        ship4: "HMS Hereward",
+        ship5: "HMS Hero",
+        ship6: "HMS Hostile",
+        ship7: "HMS Hotspur",
+        ship8: "HMS Hunter",
+        ship9: "HMS Hyperion",
+        ship10: "HMS Harvester",
+        ship11: "HMS Havant",
+        ship12: "HMS Havelock",
         ship13: "HMS Hesperus",
-        ship14: "HMS Heythrop",
-        ship15: "HMS Highlander",
-        ship16: "HMS Holcombe",
-        ship17: "HMS Hostile",
-        ship18: "HMS Hotspur",
-        ship19: "HMS Hunter",
-        ship20: "HMS Hurricane",
-        ship21: "HMS Hursley",
-        ship22: "HMS Hurworth",
-        ship23: "HMS Hyperion"
+        ship14: "HMS Highlander",
+        ship15: "HMS Hurricane"
     },
     {
         class: "I-class",
-        ship1: "HMS ",
-        ship2: "HMS ",
-        ship3: "HMS ",
-        ship4: "HMS ",
-        ship5: "HMS ",
-        ship6: "HMS ",
-        ship7: "HMS ",
-        ship8: "HMS ",
-        ship9: "HMS ",
-        ship10: "HMS ",
-        ship11: "HMS ",
-        ship12: "HMS ",
-        ship13: "HMS ",
-        ship14: "HMS ",
-        ship15: "HMS ",
-        ship16: "HMS ",
-        ship17: "HMS ",
-        ship18: "HMS ",
-        ship19: "HMS ",
-        ship20: "HMS ",
-        ship21: "HMS ",
-        ship22: "HMS ",
-        ship23: "HMS ",
-        ship24: "HMS ",
-        ship25: "HMS ",
-        ship26: "HMS ",
-        ship27: "HMS ",
-        ship28: "HMS ",
-        ship29: "HMS ",
-        ship30: "HMS ",
-        ship32: "HMS ",
-        ship33: "HMS ",
-        ship34: "HMS ",
-        ship35: "HMS "
-    },
-    {
-        class: "J-class",
-        ship1: "HMS ",
-        ship2: "HMS ",
-        ship3: "HMS ",
-        ship4: "HMS ",
-        ship5: "HMS ",
-        ship6: "HMS ",
-        ship7: "HMS ",
-        ship8: "HMS ",
-        ship9: "HMS ",
-        ship10: "HMS ",
-        ship11: "HMS ",
-        ship12: "HMS ",
-        ship13: "HMS ",
-        ship14: "HMS ",
-        ship15: "HMS ",
-        ship16: "HMS ",
-        ship17: "HMS ",
-        ship18: "HMS ",
-        ship19: "HMS ",
-        ship20: "HMS ",
-        ship21: "HMS ",
-        ship22: "HMS ",
-        ship23: "HMS ",
-        ship24: "HMS ",
-        ship25: "HMS ",
-        ship26: "HMS ",
-        ship27: "HMS ",
-        ship28: "HMS ",
-        ship29: "HMS ",
-        ship30: "HMS ",
-        ship32: "HMS ",
-        ship33: "HMS ",
-        ship34: "HMS ",
-        ship35: "HMS "
+        ship1: "HMS Icarus",
+        ship2: "HMS Ilex",
+        ship3: "HMS Imogen",
+        ship4: "HMS Imperial",
+        ship5: "HMS Impulsive",
+        ship6: "HMS Ingefield",
+        ship7: "HMS Intrepid",
+        ship8: "HMS Isis",
+        ship9: "HMS Ivanhoe",
+        ship10: "HMS Inconstant",
+        ship11: "HMS Ithuriel",
+        ship12: "HMS Sultanhisar",
+        ship13: "HMS Demirhisar"
     }];
 
     let HMSshipList = document.getElementById("HMSshiplist");
@@ -485,9 +346,15 @@ let HMSship = [
         let myShip33 = newTextElem(HMSship.ship33, "p");
         let myShip34 = newTextElem(HMSship.ship34, "p");
         let myShip35 = newTextElem(HMSship.ship35, "p");
+        let myShip36 = newTextElem(HMSship.ship36, "p");
+        let myShip37 = newTextElem(HMSship.ship37, "p");
+        let myShip38 = newTextElem(HMSship.ship38, "p");
+        let myShip39 = newTextElem(HMSship.ship39, "p");
+        let myShip40 = newTextElem(HMSship.ship40, "p");
+        let myShip41 = newTextElem(HMSship.ship41, "p");
 
 
-        myDiv.append(myShip1, myShip2, myShip3, myShip4, myShip5, myShip6, myShip7, myShip8, myShip9, myShip10, myShip11, myShip12, myShip13, myShip14, myShip15, myShip16, myShip17, myShip18, myShip19, myShip20, myShip21, myShip22, myShip23, myShip24, myShip25, myShip26, myShip27, myShip28, myShip29, myShip30, myShip31, myShip32, myShip33, myShip34, myShip35);
+        myDiv.append(myShip1, myShip2, myShip3, myShip4, myShip5, myShip6, myShip7, myShip8, myShip9, myShip10, myShip11, myShip12, myShip13, myShip14, myShip15, myShip16, myShip17, myShip18, myShip19, myShip20, myShip21, myShip22, myShip23, myShip24, myShip25, myShip26, myShip27, myShip28, myShip29, myShip30, myShip31, myShip32, myShip33, myShip34, myShip35, myShip36, myShip37, myShip38, myShip39, myShip40, myShip41);
 
         return myDiv;
     };
@@ -713,3 +580,114 @@ let KMSship = [
             item.style.display = "none";
         };
     };
+
+    let IJNship = [
+        {   
+            class: "",
+            ship1: "",
+            ship2: "",
+            ship3: "",
+            ship4: ""
+        },
+        { 
+            class: "",
+            ship1: "",
+            ship2: ""
+        }];
+    
+        let IJNshipList = document.getElementById("IJNshiplist");
+    
+        function newTextElem(text, type){
+            let myElem = document.createElement(type)
+            myElem.textContent = text;
+            return myElem;
+        };
+    
+        function newHMSShipDiv(IJNship){
+            let myDiv = document.createElement("div");
+            myDiv.className = "IJNship";
+        
+            let myTitle = newTextElem(IJNship.class,"H3")
+        
+            myDiv.append(myTitle);
+    
+            myTitle.addEventListener("mouseover", () => changeColor(myTitle, "#e1c699"));
+            myTitle.addEventListener("mouseout", () => changeColor(myTitle, "#000000"));
+    
+            let myInfoDiv = newInfoDiv(HMSship);
+            myDiv.append(myTitle, myInfoDiv);
+        
+            myInfoDiv.style.display = "none";
+    
+            myTitle.addEventListener("click", () => toggleData(myInfoDiv));
+    
+            return myDiv;
+        };
+    
+        HMSship.forEach(HMSship => {
+            let elem = newHMSShipDiv(HMSship);
+            HMSshipList.appendChild(elem);
+        });
+    
+        function changeColor(elem, color){
+            elem.style.color = color;
+        };
+    
+        function newInfoDiv(HMSship){
+            let myDiv = document.createElement("div");
+        
+            let myShip1 = newTextElem(HMSship.ship1, "p");
+            let myShip2 = newTextElem(HMSship.ship2, "p");
+            let myShip3 = newTextElem(HMSship.ship3, "p");
+            let myShip4 = newTextElem(HMSship.ship4, "p");
+            let myShip5 = newTextElem(HMSship.ship5, "p");
+            let myShip6 = newTextElem(HMSship.ship6, "p");
+            let myShip7 = newTextElem(HMSship.ship7, "p");
+            let myShip8 = newTextElem(HMSship.ship8, "p");
+            let myShip9 = newTextElem(HMSship.ship9, "p");
+            let myShip10 = newTextElem(HMSship.ship10, "p");
+            let myShip11 = newTextElem(HMSship.ship11, "p");
+            let myShip12 = newTextElem(HMSship.ship12, "p");
+            let myShip13 = newTextElem(HMSship.ship13, "p");
+            let myShip14 = newTextElem(HMSship.ship14, "p");
+            let myShip15 = newTextElem(HMSship.ship15, "p");
+            let myShip16 = newTextElem(HMSship.ship16, "p");
+            let myShip17 = newTextElem(HMSship.ship17, "p");
+            let myShip18 = newTextElem(HMSship.ship18, "p");
+            let myShip19 = newTextElem(HMSship.ship19, "p");
+            let myShip20 = newTextElem(HMSship.ship20, "p");
+            let myShip21 = newTextElem(HMSship.ship21, "p");
+            let myShip22 = newTextElem(HMSship.ship22, "p");
+            let myShip23 = newTextElem(HMSship.ship23, "p");
+            let myShip24 = newTextElem(HMSship.ship24, "p");
+            let myShip25 = newTextElem(HMSship.ship25, "p");
+            let myShip26 = newTextElem(HMSship.ship26, "p");
+            let myShip27 = newTextElem(HMSship.ship27, "p");
+            let myShip28 = newTextElem(HMSship.ship28, "p");
+            let myShip29 = newTextElem(HMSship.ship29, "p");
+            let myShip30 = newTextElem(HMSship.ship30, "p");
+            let myShip31 = newTextElem(HMSship.ship31, "p");
+            let myShip32 = newTextElem(HMSship.ship32, "p");
+            let myShip33 = newTextElem(HMSship.ship33, "p");
+            let myShip34 = newTextElem(HMSship.ship34, "p");
+            let myShip35 = newTextElem(HMSship.ship35, "p");
+            let myShip36 = newTextElem(HMSship.ship36, "p");
+            let myShip37 = newTextElem(HMSship.ship37, "p");
+            let myShip38 = newTextElem(HMSship.ship38, "p");
+            let myShip39 = newTextElem(HMSship.ship39, "p");
+            let myShip40 = newTextElem(HMSship.ship40, "p");
+            let myShip41 = newTextElem(HMSship.ship41, "p");
+    
+    
+            myDiv.append(myShip1, myShip2, myShip3, myShip4, myShip5, myShip6, myShip7, myShip8, myShip9, myShip10, myShip11, myShip12, myShip13, myShip14, myShip15, myShip16, myShip17, myShip18, myShip19, myShip20, myShip21, myShip22, myShip23, myShip24, myShip25, myShip26, myShip27, myShip28, myShip29, myShip30, myShip31, myShip32, myShip33, myShip34, myShip35, myShip36, myShip37, myShip38, myShip39, myShip40, myShip41);
+    
+            return myDiv;
+        };
+    
+        function toggleData(item) {
+            if(item.style.display === "none"){
+                item.style.display = "block";
+            } else {
+                item.style.display = "none";
+            };
+        };
