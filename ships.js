@@ -359,14 +359,6 @@ let HMSship = [
         return myDiv;
     };
 
-    function toggleData(item) {
-        if(item.style.display === "none"){
-            item.style.display = "block";
-        } else {
-            item.style.display = "none";
-        };
-    };
-
 let KMSship = [
     {   
         class: "Bismarck-class",
@@ -573,21 +565,21 @@ let KMSship = [
         return myDiv;
     };
 
-    function toggleData(item) {
-        if(item.style.display === "none"){
-            item.style.display = "block";
-        } else {
-            item.style.display = "none";
-        };
-    };
-
     let IJNship = [
-        {   
-            class: "",
-            ship1: "",
-            ship2: "",
-            ship3: "",
-            ship4: ""
+        {
+            class: "Takao-class",
+            ship1: "IJN Takao",
+            ship2: "IJN Atago",
+            ship3: "IJN Maya",
+            ship4: "IJN Choukai"
+            //(高雄)(愛宕)(摩耶)(鳥海)
+        },
+        {
+            class: "Yamato-class",
+            ship1: "IJN Yamato",
+            ship2: "IJN Mushashi",
+            ship3: "IJN Shinano",
+            ship4: "Warship Number 111 (IJN Kii)"
         },
         { 
             class: "",
@@ -603,7 +595,7 @@ let KMSship = [
             return myElem;
         };
     
-        function newHMSShipDiv(IJNship){
+        function newIJNShipDiv(IJNship){
             let myDiv = document.createElement("div");
             myDiv.className = "IJNship";
         
@@ -614,7 +606,7 @@ let KMSship = [
             myTitle.addEventListener("mouseover", () => changeColor(myTitle, "#e1c699"));
             myTitle.addEventListener("mouseout", () => changeColor(myTitle, "#000000"));
     
-            let myInfoDiv = newInfoDiv(HMSship);
+            let myInfoDiv = newInfoDiv(IJNship);
             myDiv.append(myTitle, myInfoDiv);
         
             myInfoDiv.style.display = "none";
@@ -624,59 +616,59 @@ let KMSship = [
             return myDiv;
         };
     
-        HMSship.forEach(HMSship => {
-            let elem = newHMSShipDiv(HMSship);
-            HMSshipList.appendChild(elem);
+        IJNship.forEach(IJNship => {
+            let elem = newIJNShipDiv(IJNship);
+            IJNshipList.appendChild(elem);
         });
     
         function changeColor(elem, color){
             elem.style.color = color;
         };
     
-        function newInfoDiv(HMSship){
+        function newInfoDiv(IJNship){
             let myDiv = document.createElement("div");
         
-            let myShip1 = newTextElem(HMSship.ship1, "p");
-            let myShip2 = newTextElem(HMSship.ship2, "p");
-            let myShip3 = newTextElem(HMSship.ship3, "p");
-            let myShip4 = newTextElem(HMSship.ship4, "p");
-            let myShip5 = newTextElem(HMSship.ship5, "p");
-            let myShip6 = newTextElem(HMSship.ship6, "p");
-            let myShip7 = newTextElem(HMSship.ship7, "p");
-            let myShip8 = newTextElem(HMSship.ship8, "p");
-            let myShip9 = newTextElem(HMSship.ship9, "p");
-            let myShip10 = newTextElem(HMSship.ship10, "p");
-            let myShip11 = newTextElem(HMSship.ship11, "p");
-            let myShip12 = newTextElem(HMSship.ship12, "p");
-            let myShip13 = newTextElem(HMSship.ship13, "p");
-            let myShip14 = newTextElem(HMSship.ship14, "p");
-            let myShip15 = newTextElem(HMSship.ship15, "p");
-            let myShip16 = newTextElem(HMSship.ship16, "p");
-            let myShip17 = newTextElem(HMSship.ship17, "p");
-            let myShip18 = newTextElem(HMSship.ship18, "p");
-            let myShip19 = newTextElem(HMSship.ship19, "p");
-            let myShip20 = newTextElem(HMSship.ship20, "p");
-            let myShip21 = newTextElem(HMSship.ship21, "p");
-            let myShip22 = newTextElem(HMSship.ship22, "p");
-            let myShip23 = newTextElem(HMSship.ship23, "p");
-            let myShip24 = newTextElem(HMSship.ship24, "p");
-            let myShip25 = newTextElem(HMSship.ship25, "p");
-            let myShip26 = newTextElem(HMSship.ship26, "p");
-            let myShip27 = newTextElem(HMSship.ship27, "p");
-            let myShip28 = newTextElem(HMSship.ship28, "p");
-            let myShip29 = newTextElem(HMSship.ship29, "p");
-            let myShip30 = newTextElem(HMSship.ship30, "p");
-            let myShip31 = newTextElem(HMSship.ship31, "p");
-            let myShip32 = newTextElem(HMSship.ship32, "p");
-            let myShip33 = newTextElem(HMSship.ship33, "p");
-            let myShip34 = newTextElem(HMSship.ship34, "p");
-            let myShip35 = newTextElem(HMSship.ship35, "p");
-            let myShip36 = newTextElem(HMSship.ship36, "p");
-            let myShip37 = newTextElem(HMSship.ship37, "p");
-            let myShip38 = newTextElem(HMSship.ship38, "p");
-            let myShip39 = newTextElem(HMSship.ship39, "p");
-            let myShip40 = newTextElem(HMSship.ship40, "p");
-            let myShip41 = newTextElem(HMSship.ship41, "p");
+            let myShip1 = newTextElem(IJNship.ship1, "p");
+            let myShip2 = newTextElem(IJNship.ship2, "p");
+            let myShip3 = newTextElem(IJNship.ship3, "p");
+            let myShip4 = newTextElem(IJNship.ship4, "p");
+            let myShip5 = newTextElem(IJNship.ship5, "p");
+            let myShip6 = newTextElem(IJNship.ship6, "p");
+            let myShip7 = newTextElem(IJNship.ship7, "p");
+            let myShip8 = newTextElem(IJNship.ship8, "p");
+            let myShip9 = newTextElem(IJNship.ship9, "p");
+            let myShip10 = newTextElem(IJNship.ship10, "p");
+            let myShip11 = newTextElem(IJNship.ship11, "p");
+            let myShip12 = newTextElem(IJNship.ship12, "p");
+            let myShip13 = newTextElem(IJNship.ship13, "p");
+            let myShip14 = newTextElem(IJNship.ship14, "p");
+            let myShip15 = newTextElem(IJNship.ship15, "p");
+            let myShip16 = newTextElem(IJNship.ship16, "p");
+            let myShip17 = newTextElem(IJNship.ship17, "p");
+            let myShip18 = newTextElem(IJNship.ship18, "p");
+            let myShip19 = newTextElem(IJNship.ship19, "p");
+            let myShip20 = newTextElem(IJNship.ship20, "p");
+            let myShip21 = newTextElem(IJNship.ship21, "p");
+            let myShip22 = newTextElem(IJNship.ship22, "p");
+            let myShip23 = newTextElem(IJNship.ship23, "p");
+            let myShip24 = newTextElem(IJNship.ship24, "p");
+            let myShip25 = newTextElem(IJNship.ship25, "p");
+            let myShip26 = newTextElem(IJNship.ship26, "p");
+            let myShip27 = newTextElem(IJNship.ship27, "p");
+            let myShip28 = newTextElem(IJNship.ship28, "p");
+            let myShip29 = newTextElem(IJNship.ship29, "p");
+            let myShip30 = newTextElem(IJNship.ship30, "p");
+            let myShip31 = newTextElem(IJNship.ship31, "p");
+            let myShip32 = newTextElem(IJNship.ship32, "p");
+            let myShip33 = newTextElem(IJNship.ship33, "p");
+            let myShip34 = newTextElem(IJNship.ship34, "p");
+            let myShip35 = newTextElem(IJNship.ship35, "p");
+            let myShip36 = newTextElem(IJNship.ship36, "p");
+            let myShip37 = newTextElem(IJNship.ship37, "p");
+            let myShip38 = newTextElem(IJNship.ship38, "p");
+            let myShip39 = newTextElem(IJNship.ship39, "p");
+            let myShip40 = newTextElem(IJNship.ship40, "p");
+            let myShip41 = newTextElem(IJNship.ship41, "p");
     
     
             myDiv.append(myShip1, myShip2, myShip3, myShip4, myShip5, myShip6, myShip7, myShip8, myShip9, myShip10, myShip11, myShip12, myShip13, myShip14, myShip15, myShip16, myShip17, myShip18, myShip19, myShip20, myShip21, myShip22, myShip23, myShip24, myShip25, myShip26, myShip27, myShip28, myShip29, myShip30, myShip31, myShip32, myShip33, myShip34, myShip35, myShip36, myShip37, myShip38, myShip39, myShip40, myShip41);
