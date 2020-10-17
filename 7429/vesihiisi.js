@@ -53,13 +53,13 @@ let k18info = [
     function newInfoDiv(k18info){
         let myDiv = document.createElement("div");
     
-        let myslot1 = newTextElem(k18info.slot1, "p");
-        let myslot2 = newTextElem(k18info.slot2, "p");
-        let myslot3 = newTextElem(k18info.slot3, "p");
-        let myslot4 = newTextElem(k18info.slot4, "p");
-        let myslot5 = newTextElem(k18info.slot5, "p");
-        let myslot6 = newTextElem(k18info.slot6, "p");
-        let myslot7 = newTextElem(k18info.slot7, "p");
+        let myslot1 = newTextElem(k18info.slot1, "li");
+        let myslot2 = newTextElem(k18info.slot2, "li");
+        let myslot3 = newTextElem(k18info.slot3, "li");
+        let myslot4 = newTextElem(k18info.slot4, "li");
+        let myslot5 = newTextElem(k18info.slot5, "li");
+        let myslot6 = newTextElem(k18info.slot6, "li");
+        let myslot7 = newTextElem(k18info.slot7, "li");
 
         myDiv.append(myslot1, myslot2, myslot3, myslot4, myslot5, myslot6, myslot7);
 
