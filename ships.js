@@ -582,9 +582,9 @@ let KMSship = [
             ship4: "Warship Number 111 (IJN Kii)"
         },
         { 
-            class: "",
-            ship1: "",
-            ship2: ""
+            class: "Shõkaku-class",
+            ship1: "Shõkaku",
+            ship2: "Zuikaku"
         }];
     
         let IJNshipList = document.getElementById("IJNshiplist");
