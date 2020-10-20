@@ -589,7 +589,7 @@ let KMSship = [
     
         let IJNshipList = document.getElementById("IJNshiplist");
     
-        function newTextElem(text, type){
+        function newTextElem(text, type) {
             let myElem = document.createElement(type)
             myElem.textContent = text;
             return myElem;
