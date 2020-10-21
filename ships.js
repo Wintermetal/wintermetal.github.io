@@ -371,6 +371,20 @@ let KMSship = [
         ship2: "KMS Gneisenau"
     },
     {   
+        class: "Deutschland-class",
+        ship1: "KMS Deutschland",
+        ship2: "KMS Admiral Scheer",
+        ship3: "KMS Admiral Graf Spee"
+    },
+    {   
+        class: "Admiral Hipper-class",
+        ship1: "KMS Admiral Hipper",
+        ship2: "KMS Blücher",
+        ship3: "KMS Prinz Eugen",
+        ship4: "KMS Seydlitz",
+        ship5: "KMS Lützow"
+    },
+    {   
         class: "Zerstörer 1934",
         ship1: "KMS Z1 Leberecht Maas",
         ship2: "KMS Z2 Georg Thiele",
@@ -567,6 +581,13 @@ let KMSship = [
 
     let IJNship = [
         {
+            class: "Yamato-class",
+            ship1: "IJN Yamato",
+            ship2: "IJN Mushashi",
+            ship3: "IJN Shinano",
+            ship4: "Warship Number 111 (IJN Kii)"
+        },
+        {
             class: "Takao-class",
             ship1: "IJN Takao",
             ship2: "IJN Atago",
@@ -574,17 +595,16 @@ let KMSship = [
             ship4: "IJN Choukai"
             //(高雄)(愛宕)(摩耶)(鳥海)
         },
-        {
-            class: "Yamato-class",
-            ship1: "IJN Yamato",
-            ship2: "IJN Mushashi",
-            ship3: "IJN Shinano",
-            ship4: "Warship Number 111 (IJN Kii)"
-        },
         { 
             class: "Shõkaku-class",
             ship1: "Shõkaku",
             ship2: "Zuikaku"
+        },
+        {
+            class: "Unryū-class",
+            ship1: "IJN Unryū",
+            ship2: "IJN Amagi",
+            ship3: "IJN Katsuragi"
         }];
     
         let IJNshipList = document.getElementById("IJNshiplist");
