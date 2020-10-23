@@ -3,6 +3,8 @@ var yoink = console.log;
 let HMSship = [
     {   
         class: "Illustrious-class",
+        built: "Built: 1937-1940",
+        service: "In service: 1940-1968",
         ship1: "HMS Illustrious",
         ship2: "HMS Victorious",
         ship3: "HMS Furious",
@@ -10,11 +12,15 @@ let HMSship = [
     },
     { 
         class: "Implacable-class",
+        built: "Built: 1939-1944",
+        service: "In service: 1944-1955",
         ship1: "HMS Implacable",
         ship2: "HMS Indefatigable"
     },
     {   
         class: "Admiral-class",
+        built: "Built: 1916-1920",
+        service: "In service: 1920-1941",
         ship1: "HMS Hood",
         ship2: "HMS Anson",
         ship3: "HMS Howe",
@@ -22,6 +28,8 @@ let HMSship = [
     },
     {   
         class: "Revenge-class",
+        built: "Built: 1913-1917",
+        service: "In service: 1916-1949",
         ship1: "HMS Revenge",
         ship2: "HMS Resolution",
         ship3: "HMS Royal Oak",
@@ -30,11 +38,15 @@ let HMSship = [
     },
     { 
         class: "Renown-class",
+        built: "Built: 1915-1916",
+        service: "In service: 1916-1945",
         ship1: "HMS Renown",
         ship2: "HMS Repulse"
     },
     { 
         class: "King George-class",
+        built: "Built: 1936-1940",
+        service: "In service: 1940-1951",
         ship1: "HMS King George V",
         ship2: "HMS Prince of Wales",
         ship3: "HMS Duke of York",
@@ -43,11 +55,15 @@ let HMSship = [
     },
     {   
         class: "Nelson-class",
+        built: "Built: 1922-1927",
+        service: "In service: 1927-1947",
         ship1: "HMS Nelson",
         ship2: "HMS Rodney"
     },
     {
         class: "Queen Elizabeth-class",
+        built: "Built: 1912-1915",
+        service: "In service: 1914-1947",
         ship1: "HMS Queen Elizabeth",
         ship2: "HMS Warspite",
         ship3: "HMS Valiant",
@@ -56,32 +72,32 @@ let HMSship = [
     },
     {
         class: "Ironduke-class",
+        built: "Built: 1912-1914",
+        service: "In service: 1914-1946",
         ship1: "HMS Iron Duke",
         ship2: "HMS Marlborough",
         ship3: "HMS Benbow",
         ship4: "HMS Emperor of India"
     },
     {
-        class: "Southampton-class",
+        class: "Town-class",
+        built: "Built: 1934-1939",
+        service: "In service: 1937-1960",
         ship1: "HMS Southampton",
         ship2: "HMS Newcastle",
         ship3: "HMS Sheffield",
         ship4: "HMS Glasgow",
-        ship5: "HMS Birmingham"
-    },
-    {
-        class: "Glouchester-class",
-        ship1: "HMS Glouchester",
-        ship2: "HMS Liverpool",
-        ship3: "HMS Manchester"
-    },
-    {
-        class: "Edinburgh-class",
-        ship1: "HMS Edinurgh",
-        ship2: "HMS Belfast"
+        ship5: "HMS Birmingham",
+        ship6: "HMS Glouchester",
+        ship7: "HMS Liverpool",
+        ship8: "HMS Manchester",
+        ship9: "HMS Edinurgh",
+        ship10: "HMS Belfast"
     },
     {
         class: "Arethusa-class",
+        built: "Built: 1933-1937",
+        service: "In service: 1935-1949",
         ship1: "HMS Arethusa",
         ship2: "HMS Galatea",
         ship3: "HMS Penelope",
@@ -89,6 +105,8 @@ let HMSship = [
     },
     {
         class: "Dido-class",
+        built: "Built: 1937-1943",
+        service: "In service: 1940-1966",
         ship1: "HMS Dido",
         ship2: "HMS Argonaut",
         ship3: "HMS Charybdis",
@@ -108,6 +126,8 @@ let HMSship = [
     },
     {
         class: "Fiji-class",
+        built: "Built: 1938-1943",
+        service: "In service: 1940-1985",
         ship1: "HMS Fiji",
         ship2: "HMS Nigeria",
         ship3: "HMS Mauritius",
@@ -122,6 +142,8 @@ let HMSship = [
     },
     {
         class: "Minotaur-class",
+        built: "Built: 1941-1945",
+        service: "In service: 1944-1958",
         ship1: "HMS Minotaur",
         ship2: "HMS Swiftsure",
         ship3: "HMS Superb",
@@ -130,6 +152,8 @@ let HMSship = [
     },
     {   
         class: "Laforey-class",
+        built: "Built: 1912-1915",
+        service: "In service: 1913-1923",
         ship1: "HMS Laforey",
         ship2: "HMS Llewellyn",
         ship3: "HMS Lennox",
@@ -155,6 +179,8 @@ let HMSship = [
     },
     {
         class: "A-class",
+        built: "Built: 1928-1931",
+        service: "In service: 1930-1945",
         ship1: "HMS Codrington",
         ship2: "HMS Acasta",
         ship3: "HMS Achates",
@@ -169,6 +195,8 @@ let HMSship = [
     },
     {
         class: "B-class",
+        built: "Built: 1928-1931",
+        service: "In service: 1930-1945",
         ship1: "HMS Keith",
         ship2: "HMS Basilisk",
         ship3: "HMS Beagle",
@@ -181,6 +209,8 @@ let HMSship = [
     },
     {
         class: "C-class",
+        built: "Built: 1930-1933",
+        service: "In service: 1932-1945",
         ship1: "HMS Kempenfelt",
         ship2: "HMS Comet",
         ship3: "HMS Crusader",
@@ -189,6 +219,8 @@ let HMSship = [
     },
     {
         class: "D-class",
+        built: "Built: 1930-1933",
+        service: "In service: 1932-1945",
         ship1: "HMS Duncan",
         ship2: "HMS Dainty",
         ship3: "HMS Daring",
@@ -201,6 +233,8 @@ let HMSship = [
     },
     {
         class: "E-class",
+        built: "Built: 1933-1935",
+        service: "In service: 1934-1968",
         ship1: "HMS Exmouth",
         ship2: "HMS Echo",
         ship3: "HMS Eclipse",
@@ -213,6 +247,8 @@ let HMSship = [
     },
     {
         class: "F-class",
+        built: "Built: 1933-1935",
+        service: "In service: 1934-1968",
         ship1: "HMS Faulknor",
         ship2: "HMS Fame",
         ship3: "HMS Fearless",
@@ -225,6 +261,8 @@ let HMSship = [
     },
     {
         class: "G-class",
+        built: "Built: 1934-1940",
+        service: "In service: 1936-1964",
         ship1: "HMS Gallant",
         ship2: "HMS Garland",
         ship3: "HMS Gipsy",
@@ -237,6 +275,8 @@ let HMSship = [
     },
     {
         class: "H-class",
+        built: "Built: 1934-1940",
+        service: "In service: 1936-1964",
         ship1: "HMS Hardy",
         ship2: "HMS Hasty",
         ship3: "HMS Havock",
@@ -255,6 +295,8 @@ let HMSship = [
     },
     {
         class: "I-class",
+        built: "Built: 1936-1942",
+        service: "In service: 1937-1960",
         ship1: "HMS Icarus",
         ship2: "HMS Ilex",
         ship3: "HMS Imogen",
@@ -311,6 +353,8 @@ let HMSship = [
     function newInfoDiv(HMSship){
         let myDiv = document.createElement("div");
     
+        let myBuilt = newTextElem(HMSship.built, "h6");
+        let myService = newTextElem(HMSship.service, "h6");
         let myShip1 = newTextElem(HMSship.ship1, "p");
         let myShip2 = newTextElem(HMSship.ship2, "p");
         let myShip3 = newTextElem(HMSship.ship3, "p");
@@ -354,7 +398,7 @@ let HMSship = [
         let myShip41 = newTextElem(HMSship.ship41, "p");
 
 
-        myDiv.append(myShip1, myShip2, myShip3, myShip4, myShip5, myShip6, myShip7, myShip8, myShip9, myShip10, myShip11, myShip12, myShip13, myShip14, myShip15, myShip16, myShip17, myShip18, myShip19, myShip20, myShip21, myShip22, myShip23, myShip24, myShip25, myShip26, myShip27, myShip28, myShip29, myShip30, myShip31, myShip32, myShip33, myShip34, myShip35, myShip36, myShip37, myShip38, myShip39, myShip40, myShip41);
+        myDiv.append(myBuilt, myService, myShip1, myShip2, myShip3, myShip4, myShip5, myShip6, myShip7, myShip8, myShip9, myShip10, myShip11, myShip12, myShip13, myShip14, myShip15, myShip16, myShip17, myShip18, myShip19, myShip20, myShip21, myShip22, myShip23, myShip24, myShip25, myShip26, myShip27, myShip28, myShip29, myShip30, myShip31, myShip32, myShip33, myShip34, myShip35, myShip36, myShip37, myShip38, myShip39, myShip40, myShip41);
 
         return myDiv;
     };
@@ -362,6 +406,8 @@ let HMSship = [
     let SMSship = [
         {    
             class: "Helgoland-class",
+            built: "Built: 1908-1912",
+            service: "In service: 1911-1920",
             ship1: "SMS Helgoland",
             ship2: "SMS Ostfriesland",
             ship3: "SMS Thüringen",
@@ -369,6 +415,8 @@ let HMSship = [
         },
         { 
             class: "Nassau-class",
+            built: "Built: 1907-1910",
+            service: "In service: 1909-1919",
             ship1: "SMS Nassau",
             ship2: "SMS Westfalen",
             ship3: "SMS Rheinland",
@@ -376,6 +424,8 @@ let HMSship = [
         },
         { 
             class: "Kaiser-class",
+            built: "Built: 1909-1913",
+            service: "In service: 1912-1919",
             ship1: "SMS Kaiser",
             ship2: "SMS Friedrich der Große",
             ship3: "SMS Kaiserin",
@@ -384,10 +434,21 @@ let HMSship = [
         },
         { 
             class: "König-class",
+            built: "Built: 1911-1914",
+            service: "In service: 1914-1919",
             ship1: "SMS König",
             ship2: "SMS Großer Kurfürst",
             ship3: "SMS Markgraf",
             ship4: "SMS Kronprinz"
+        },
+        { 
+            class: "Bayern-class",
+            built: "Built: 1913-1917",
+            service: "In service: 1916-1919",
+            ship1: "SMS Bayern",
+            ship2: "SMS Baden",
+            ship3: "SMS Sachen",
+            ship4: "SMS Wüttemberg"
         }];
 
     let SMSshipList = document.getElementById("SMSshiplist");
@@ -431,6 +492,8 @@ let HMSship = [
     function newInfoDiv(SMSship){
         let myDiv = document.createElement("div");
     
+        let myBuilt = newTextElem(SMSship.built, "h6");
+        let myService = newTextElem(SMSship.service, "h6");
         let myShip1 = newTextElem(SMSship.ship1, "p");
         let myShip2 = newTextElem(SMSship.ship2, "p");
         let myShip3 = newTextElem(SMSship.ship3, "p");
@@ -455,7 +518,7 @@ let HMSship = [
         let myShip22 = newTextElem(SMSship.ship22, "p");
 
 
-        myDiv.append(myShip1, myShip2, myShip3, myShip4, myShip5, myShip6, myShip7, myShip8, myShip9, myShip10, myShip11, myShip12, myShip13, myShip14, myShip15, myShip16, myShip17, myShip18, myShip19, myShip20, myShip21, myShip22);
+        myDiv.append(myBuilt, myService, myShip1, myShip2, myShip3, myShip4, myShip5, myShip6, myShip7, myShip8, myShip9, myShip10, myShip11, myShip12, myShip13, myShip14, myShip15, myShip16, myShip17, myShip18, myShip19, myShip20, myShip21, myShip22);
 
         return myDiv;
     };
@@ -463,22 +526,39 @@ let HMSship = [
 let KMSship = [
     {   
         class: "Bismarck-class",
+        built: "Built: 1936-1941",
+        service: "In service: 1940-1944",
         ship1: "KMS Bismarck",
         ship2: "KMS Tirpitz"
     },
     {   
         class: "Scharnhorst-class",
+        built: "Built: 1935-1939",
+        service: "In service: 1938-1943",
         ship1: "KMS Scharnhorst",
         ship2: "KMS Gneisenau"
     },
     {   
+        class: "H-class",
+        built: "Built: 1939-cancelled",
+        ship1: "H-39",
+        ship2: "H-41",
+        ship4: "H-42",
+        ship5: "H-43",
+        ship6: "H-44",
+    },
+    {   
         class: "Deutschland-class",
+        built: "Built: 1929-1936",
+        service: "In service: 1933-1945",
         ship1: "KMS Deutschland",
         ship2: "KMS Admiral Scheer",
         ship3: "KMS Admiral Graf Spee"
     },
     {   
         class: "Admiral Hipper-class",
+        built: "Built: 1935-1940",
+        service: "In service: 1939-1945",
         ship1: "KMS Admiral Hipper",
         ship2: "KMS Blücher",
         ship3: "KMS Prinz Eugen",
@@ -487,6 +567,8 @@ let KMSship = [
     },
     {   
         class: "Zerstörer 1934",
+        built: "Built: 1934-1935",
+        service: "In service: 1937-1947",
         ship1: "KMS Z1 Leberecht Maas",
         ship2: "KMS Z2 Georg Thiele",
         ship3: "KMS Z3 Max Schultz",
@@ -494,6 +576,8 @@ let KMSship = [
     },
     {
         class: "Zerstörer 1934A",
+        built: "Built: 1935-1936",
+        service: "In service: 1937-1958",
         ship1: "KMS Z5 Paul Jacobi",
         ship2: "KMS Z6 Theodor Riedel",
         ship3: "KMS Z7 Hermann Schoemann",
@@ -509,6 +593,8 @@ let KMSship = [
     },
     {   
         class: "Zerstörer 1936",
+        built: "Built: 1936-1939",
+        service: "In service: 1938-1956",
         ship1: "KMS Z17 Diether von Roeder",
         ship2: "KMS Z18 Hans Lüdemann",
         ship3: "KMS Z19 Hermann Künne",
@@ -517,7 +603,9 @@ let KMSship = [
         ship6: "KMS Z22 Anton Schmitt"
     },
     {   
-        class: "Zerstörer 1936A",
+        class: `Zerstörer 1936A "Narvik"`,
+        built: "Built: 1938-1941",
+        service: "In service: 1940-1958",
         ship1: "KMS Z23",
         ship2: "KMS Z24",
         ship3: "KMS Z25",
@@ -529,6 +617,8 @@ let KMSship = [
     },
     {
         class: "Zerstörer 1936A (Mobilmachung)",
+        built: "Built: 1940-1943",
+        service: "In service: 1942-1964",
         ship1: "KMS Z31",
         ship2: "KMS Z32",
         ship3: "KMS Z33",
@@ -539,6 +629,8 @@ let KMSship = [
     },
     {
         class: "Zerstörer 1936B",
+        built: "Built: 1941-1945",
+        service: "In service: 1943-1964",
         ship1: "KMS Z35",
         ship2: "KMS Z36",
         ship3: "KMS Z43",
@@ -547,15 +639,19 @@ let KMSship = [
     },
     {
         class: "Zerstörer 1936C",
+        built: "Built: 1942-cancelled",
         ship1: "KMS Z46",
         ship2: "KMS Z47"
     },
     {
         class: "Zerstörer 1942",
+        built: "Built: 1943-1945",
+        service: "In service: Lost",
         ship1: "KMS Z51"
     },
     {
         class: "Zerstörer 1944",
+        built: "Built: 1943-cancelled",
         ship1: "KMS Z52",
         ship2: "KMS Z53",
         ship3: "KMS Z54",
@@ -564,6 +660,8 @@ let KMSship = [
     },
     {   
         class: "Elbing-class",
+        built: "Built: 1941-1944",
+        service: "In service: unknown",
         ship1: "KMS T22",
         ship2: "KMS T23",
         ship3: "KMS T24",
@@ -622,6 +720,8 @@ let KMSship = [
     function newInfoDiv(KMSship){
         let myDiv = document.createElement("div");
     
+        let myBuilt = newTextElem(KMSship.built, "h6");
+        let myService = newTextElem(KMSship.service, "h6");
         let myShip1 = newTextElem(KMSship.ship1, "p");
         let myShip2 = newTextElem(KMSship.ship2, "p");
         let myShip3 = newTextElem(KMSship.ship3, "p");
@@ -646,7 +746,7 @@ let KMSship = [
         let myShip22 = newTextElem(KMSship.ship22, "p");
 
 
-        myDiv.append(myShip1, myShip2, myShip3, myShip4, myShip5, myShip6, myShip7, myShip8, myShip9, myShip10, myShip11, myShip12, myShip13, myShip14, myShip15, myShip16, myShip17, myShip18, myShip19, myShip20, myShip21, myShip22);
+        myDiv.append(myBuilt, myService, myShip1, myShip2, myShip3, myShip4, myShip5, myShip6, myShip7, myShip8, myShip9, myShip10, myShip11, myShip12, myShip13, myShip14, myShip15, myShip16, myShip17, myShip18, myShip19, myShip20, myShip21, myShip22);
 
         return myDiv;
     };
@@ -654,17 +754,23 @@ let KMSship = [
     let IJNship = [
         {
             class: "Shõkaku-class",
+            built: "Built: 0-0",
+            service: "In service: 1941-1944",
             ship1: "IJN Shõkaku",
             ship2: "IJN Zuikaku"
         },
         {
             class: "Unryū-class",
+            built: "Built: 0-0",
+            service: "In service: 1944-1945",
             ship1: "IJN Unryū",
             ship2: "IJN Amagi",
             ship3: "IJN Katsuragi"
         },
         {   
             class: "Yamato-class",
+            built: "Built: 0-0",
+            service: "In service: 1944-1944",
             ship1: "IJN Yamato",
             ship2: "IJN Mushashi",
             ship3: "IJN Shinano",
@@ -762,6 +868,8 @@ let KMSship = [
     function newInfoDiv(IJNship){
         let myDiv = document.createElement("div");
         
+        let myBuilt = newTextElem(IJNship.built, "h6");
+        let myService = newTextElem(IJNship.service, "h6");
         let myShip1 = newTextElem(IJNship.ship1, "p");
         let myShip2 = newTextElem(IJNship.ship2, "p");
         let myShip3 = newTextElem(IJNship.ship3, "p");
@@ -805,7 +913,7 @@ let KMSship = [
         let myShip41 = newTextElem(IJNship.ship41, "p");
     
     
-        myDiv.append(myShip1, myShip2, myShip3, myShip4, myShip5, myShip6, myShip7, myShip8, myShip9, myShip10, myShip11, myShip12, myShip13, myShip14, myShip15, myShip16, myShip17, myShip18, myShip19, myShip20, myShip21, myShip22, myShip23, myShip24, myShip25, myShip26, myShip27, myShip28, myShip29, myShip30, myShip31, myShip32, myShip33, myShip34, myShip35, myShip36, myShip37, myShip38, myShip39, myShip40, myShip41);
+        myDiv.append(myBuilt, myService, myShip1, myShip2, myShip3, myShip4, myShip5, myShip6, myShip7, myShip8, myShip9, myShip10, myShip11, myShip12, myShip13, myShip14, myShip15, myShip16, myShip17, myShip18, myShip19, myShip20, myShip21, myShip22, myShip23, myShip24, myShip25, myShip26, myShip27, myShip28, myShip29, myShip30, myShip31, myShip32, myShip33, myShip34, myShip35, myShip36, myShip37, myShip38, myShip39, myShip40, myShip41);
     
         return myDiv;
     };
@@ -824,6 +932,13 @@ let KMSship = [
             ship2: "Petropavlovsk",
             ship3: "Sevastopol",
             ship4: "Poltava"
+        },
+        {
+            class: "Admiral Nakhimov-class",
+            ship1: "Admiral Nakhimov",
+            ship2: "Admiral Kornilov",
+            ship3: "Admiral Istomin",
+            ship4: "Admiral Lazarev"
         }];
     
     let RUSshipList = document.getElementById("RUSshiplist");
@@ -866,7 +981,9 @@ let KMSship = [
         
     function newInfoDiv(RUSship){
         let myDiv = document.createElement("div");
-            
+        
+        let myBuilt = newTextElem(RUSship.built, "h6");
+        let myService = newTextElem(RUSship.service, "h6");
         let myShip1 = newTextElem(RUSship.ship1, "p");
         let myShip2 = newTextElem(RUSship.ship2, "p");
         let myShip3 = newTextElem(RUSship.ship3, "p");
@@ -910,7 +1027,7 @@ let KMSship = [
         let myShip41 = newTextElem(RUSship.ship41, "p");
         
         
-        myDiv.append(myShip1, myShip2, myShip3, myShip4, myShip5, myShip6, myShip7, myShip8, myShip9, myShip10, myShip11, myShip12, myShip13, myShip14, myShip15, myShip16, myShip17, myShip18, myShip19, myShip20, myShip21, myShip22, myShip23, myShip24, myShip25, myShip26, myShip27, myShip28, myShip29, myShip30, myShip31, myShip32, myShip33, myShip34, myShip35, myShip36, myShip37, myShip38, myShip39, myShip40, myShip41);
+        myDiv.append(myBuilt, myService, myShip1, myShip2, myShip3, myShip4, myShip5, myShip6, myShip7, myShip8, myShip9, myShip10, myShip11, myShip12, myShip13, myShip14, myShip15, myShip16, myShip17, myShip18, myShip19, myShip20, myShip21, myShip22, myShip23, myShip24, myShip25, myShip26, myShip27, myShip28, myShip29, myShip30, myShip31, myShip32, myShip33, myShip34, myShip35, myShip36, myShip37, myShip38, myShip39, myShip40, myShip41);
         
         return myDiv;
     };
@@ -932,10 +1049,52 @@ let KMSship = [
         },
         {
             class: "Admiral Nakhimov-class",
-            ship1: "",
-            ship2: "",
-            ship3: "",
-            ship4: ""
+            ship1: "Chervona Ukraina",
+            ship2: "Krazny Kavkaz"
+        },
+        {
+            class: "Kashin-class",
+            ship1: "Komsomolets Ukrainy",
+            ship2: "Soobrazitelnyy",
+            ship3: "Provornyy",
+            ship4: "Obraztsovyy",
+            ship5: "Odarennyy",
+            ship6: "Otvazhnyy",
+            ship7: "Steregushchiy",
+            ship8: "Krasnyy Kavkaz",
+            ship9: "Reshitelnyy",
+            ship10: "Strogiy",
+            ship11: "Smetlivyy",
+            ship12: "Krasnyy Krym",
+            ship13: "Sposobnyy",
+            ship14: "Skoryy"
+        },
+        {
+            class: "Town-class (on loan from UK)",
+            ship1: "Deyatelny (HMS Churchill)",
+            ship2: "Derzkiy (HMS Chelsea)",
+            ship3: "Zhyostky (HMS Roxborough)",
+            ship4: "Dostoyny (HMS St Albans)",
+            ship5: "Druzhny (HMS Lincoln)",
+            ship6: "Zharkiy (HMS Brighton)",
+            ship7: "Zhguchi (HMS Leamington)",
+            ship8: "Zhivuchiy (HMS Richmond)",
+            ship9: "Doblestny (HMS Georgetown)"
+        },
+        {
+            class: "Udaloy I-class",
+            ship1: "Udaloy",
+            ship2: "Vice-Admiral Kulakov",
+            ship3: "Marshal Vasilevsky",
+            ship4: "Admiral Zakharov",
+            ship5: "Admiral Spiridonov",
+            ship6: "Admiral Tributs",
+            ship7: "Marshal Shaposhnikov",
+            ship8: "Sevemorsk",
+            ship9: "Admiral Levchenko",
+            ship10: "Admiral Vinogradov",
+            ship11: "Admiral Kharlamov",
+            ship12: "Admiral Panteleyev"
         }];
     
     let USSRshipList = document.getElementById("USSRshiplist");
@@ -978,7 +1137,9 @@ let KMSship = [
         
     function newInfoDiv(USSRship){
         let myDiv = document.createElement("div");
-            
+        
+        let myBuilt = newTextElem(USSRship.built, "h6");
+        let myService = newTextElem(USSRship.service, "h6");
         let myShip1 = newTextElem(USSRship.ship1, "p");
         let myShip2 = newTextElem(USSRship.ship2, "p");
         let myShip3 = newTextElem(USSRship.ship3, "p");
@@ -1022,7 +1183,7 @@ let KMSship = [
         let myShip41 = newTextElem(USSRship.ship41, "p");
         
         
-        myDiv.append(myShip1, myShip2, myShip3, myShip4, myShip5, myShip6, myShip7, myShip8, myShip9, myShip10, myShip11, myShip12, myShip13, myShip14, myShip15, myShip16, myShip17, myShip18, myShip19, myShip20, myShip21, myShip22, myShip23, myShip24, myShip25, myShip26, myShip27, myShip28, myShip29, myShip30, myShip31, myShip32, myShip33, myShip34, myShip35, myShip36, myShip37, myShip38, myShip39, myShip40, myShip41);
+        myDiv.append(myBuilt, myService, myShip1, myShip2, myShip3, myShip4, myShip5, myShip6, myShip7, myShip8, myShip9, myShip10, myShip11, myShip12, myShip13, myShip14, myShip15, myShip16, myShip17, myShip18, myShip19, myShip20, myShip21, myShip22, myShip23, myShip24, myShip25, myShip26, myShip27, myShip28, myShip29, myShip30, myShip31, myShip32, myShip33, myShip34, myShip35, myShip36, myShip37, myShip38, myShip39, myShip40, myShip41);
         
         return myDiv;
     };
