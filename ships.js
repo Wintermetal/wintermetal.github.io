@@ -1294,6 +1294,133 @@ let KMSship = [
         
         return myDiv;
     };
+
+    let FNship = [
+        {
+            class: "Bretagne-class",
+            built: "Built: 1912-1916",
+            service: "In service: 1916-1953",
+            ship1: "FN Bretagne",
+            ship2: "FN Lorraine",
+            ship3: "FN Provence",
+            ship4: "FN Vasilefs Konstantinos"
+        },
+        {
+            class: "Normandie-class",
+            built: "Built: 1913-scrapped",
+            service: "In service: scrapped",
+            ship1: "FN Normandie",
+            ship2: "FN Flandre",
+            ship3: "FN Gascogne",
+            ship4: "FN Languedoc",
+            ship5: "FN Béarn"
+        },
+        {
+            class: "Dunkerque-class",
+            built: "Built: 1932-1938",
+            service: "In service: 1937-1942",
+            ship1: "FN Dunkerque",
+            ship2: "FN Strasbourg"
+        },
+        {
+            class: "Richeliu-class",
+            built: "Built: 1935-1955",
+            service: "In service: 1940-1970",
+            ship1: "FN Richeliu",
+            ship2: "FN Jean Bart",
+            ship3: "FN Clemenceau"
+        }];
+
+    let FNshipList = document.getElementById("FNshiplist");
+        
+    function newTextElem(text, type) {
+        let myElem = document.createElement(type)
+        myElem.textContent = text;
+        return myElem;
+    };
+        
+    function newFNShipDiv(FNship){
+        let myDiv = document.createElement("div");
+        myDiv.className = "FNship";
+            
+        let myTitle = newTextElem(FNship.class,"H3")
+            
+        myDiv.append(myTitle);
+        
+        myTitle.addEventListener("mouseover", () => changeColor(myTitle, "#e1c699"));
+        myTitle.addEventListener("mouseout", () => changeColor(myTitle, "#000000"));
+        
+        let myInfoDiv = newInfoDiv(FNship);
+        myDiv.append(myTitle, myInfoDiv);
+            
+        myInfoDiv.style.display = "none";
+        
+        myTitle.addEventListener("click", () => toggleData(myInfoDiv));
+        
+        return myDiv;
+    };
+        
+    FNship.forEach(FNship => {
+        let elem = newFNShipDiv(FNship);
+        FNshipList.appendChild(elem);
+    });
+        
+    function changeColor(elem, color){
+        elem.style.color = color;
+    };
+        
+    function newInfoDiv(FNship){
+        let myDiv = document.createElement("div");
+        
+        let myBuilt = newTextElem(FNship.built, "h6");
+        let myService = newTextElem(FNship.service, "h6");
+        let myShip1 = newTextElem(FNship.ship1, "p");
+        let myShip2 = newTextElem(FNship.ship2, "p");
+        let myShip3 = newTextElem(FNship.ship3, "p");
+        let myShip4 = newTextElem(FNship.ship4, "p");
+        let myShip5 = newTextElem(FNship.ship5, "p");
+        let myShip6 = newTextElem(FNship.ship6, "p");
+        let myShip7 = newTextElem(FNship.ship7, "p");
+        let myShip8 = newTextElem(FNship.ship8, "p");
+        let myShip9 = newTextElem(FNship.ship9, "p");
+        let myShip10 = newTextElem(FNship.ship10, "p");
+        let myShip11 = newTextElem(FNship.ship11, "p");
+        let myShip12 = newTextElem(FNship.ship12, "p");
+        let myShip13 = newTextElem(FNship.ship13, "p");
+        let myShip14 = newTextElem(FNship.ship14, "p");
+        let myShip15 = newTextElem(FNship.ship15, "p");
+        let myShip16 = newTextElem(FNship.ship16, "p");
+        let myShip17 = newTextElem(FNship.ship17, "p");
+        let myShip18 = newTextElem(FNship.ship18, "p");
+        let myShip19 = newTextElem(FNship.ship19, "p");
+        let myShip20 = newTextElem(FNship.ship20, "p");
+        let myShip21 = newTextElem(FNship.ship21, "p");
+        let myShip22 = newTextElem(FNship.ship22, "p");
+        let myShip23 = newTextElem(FNship.ship23, "p");
+        let myShip24 = newTextElem(FNship.ship24, "p");
+        let myShip25 = newTextElem(FNship.ship25, "p");
+        let myShip26 = newTextElem(FNship.ship26, "p");
+        let myShip27 = newTextElem(FNship.ship27, "p");
+        let myShip28 = newTextElem(FNship.ship28, "p");
+        let myShip29 = newTextElem(FNship.ship29, "p");
+        let myShip30 = newTextElem(FNship.ship30, "p");
+        let myShip31 = newTextElem(FNship.ship31, "p");
+        let myShip32 = newTextElem(FNship.ship32, "p");
+        let myShip33 = newTextElem(FNship.ship33, "p");
+        let myShip34 = newTextElem(FNship.ship34, "p");
+        let myShip35 = newTextElem(FNship.ship35, "p");
+        let myShip36 = newTextElem(FNship.ship36, "p");
+        let myShip37 = newTextElem(FNship.ship37, "p");
+        let myShip38 = newTextElem(FNship.ship38, "p");
+        let myShip39 = newTextElem(FNship.ship39, "p");
+        let myShip40 = newTextElem(FNship.ship40, "p");
+        let myShip41 = newTextElem(FNship.ship41, "p");
+        
+        
+        myDiv.append(myBuilt, myService, myShip1, myShip2, myShip3, myShip4, myShip5, myShip6, myShip7, myShip8, myShip9, myShip10, myShip11, myShip12, myShip13, myShip14, myShip15, myShip16, myShip17, myShip18, myShip19, myShip20, myShip21, myShip22, myShip23, myShip24, myShip25, myShip26, myShip27, myShip28, myShip29, myShip30, myShip31, myShip32, myShip33, myShip34, myShip35, myShip36, myShip37, myShip38, myShip39, myShip40, myShip41);
+        
+        return myDiv;
+    };
     
     function toggleData(item) {
         if(item.style.display === "none"){
