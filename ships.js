@@ -539,15 +539,6 @@ let KMSship = [
         ship2: "KMS Gneisenau"
     },
     {   
-        class: "H-class",
-        built: "Built: 1939-cancelled",
-        ship1: "H-39",
-        ship2: "H-41",
-        ship4: "H-42",
-        ship5: "H-43",
-        ship6: "H-44",
-    },
-    {   
         class: "Deutschland-class",
         built: "Built: 1929-1936",
         service: "In service: 1933-1945",
@@ -754,23 +745,25 @@ let KMSship = [
     let IJNship = [
         {
             class: "Shõkaku-class",
-            built: "Built: 0-0",
+            built: "Built: 1938-1941",
             service: "In service: 1941-1944",
             ship1: "IJN Shõkaku",
             ship2: "IJN Zuikaku"
         },
         {
             class: "Unryū-class",
-            built: "Built: 0-0",
+            built: "Built: 1942-1945",
             service: "In service: 1944-1945",
             ship1: "IJN Unryū",
             ship2: "IJN Amagi",
-            ship3: "IJN Katsuragi"
+            ship3: "IJN Katsuragi",
+            ship4: "Kasagi",
+            ship5: "Aso",
         },
         {   
             class: "Yamato-class",
-            built: "Built: 0-0",
-            service: "In service: 1944-1944",
+            built: "Built: 1937-1942",
+            service: "In service: 1941-1945",
             ship1: "IJN Yamato",
             ship2: "IJN Mushashi",
             ship3: "IJN Shinano",
@@ -778,13 +771,40 @@ let KMSship = [
         },
         {
             class: "Kongō-class",
+            built: "Built: 1911-1915",
+            service: "In service: 1913-1945",
             ship1: "IJN Kongō",
             ship2: "IJN Hiei",
             ship3: "IJN Kirishima",
             ship4: "IJN Haruna"
         },
         {
+            class: "Furutaka-class",
+            built: "Built: 1922-1926",
+            service: "In service: 1926-1942",
+            ship1: "IJN Furutaka",
+            ship2: "IJN Kako"
+        },
+        {
+            class: "Aoba-class",
+            built: "Built: 1924-1927",
+            service: "In service: 1927-1945",
+            ship1: "IJN Aoba",
+            ship2: "IJN Kinugasa"
+        },
+        {
+            class: "Myōkō-class",
+            built: "Built: 1924-1929",
+            service: "In service: 1928-1946",
+            ship1: "IJN Myōkō",
+            ship2: "IJN Nachi",
+            ship3: "IJN Haguro",
+            ship4: "IJN Ashigara"
+        },
+        {
             class: "Takao-class",
+            built: "Built: 1927-1932",
+            service: "In service: 1932-1945",
             ship1: "IJN Takao",
             ship2: "IJN Atago",
             ship3: "IJN Maya",
@@ -792,7 +812,25 @@ let KMSship = [
             //(高雄)(愛宕)(摩耶)(鳥海)
         },
         {
+            class: "Mogami-class",
+            built: "Built: 1931-1937",
+            service: "In service: 1935-1944",
+            ship1: "IJN Mogami",
+            ship2: "IJN Mikuma",
+            ship3: "IJN Suzuya",
+            ship4: "IJN Kumano"
+        },
+        {
+            class: "Ibuki-class",
+            built: "Built: 1942-1945",
+            service: "In service: scrapped",
+            ship1: "IJN Ibuki",
+            ship2: "IJN No. 301"
+        },
+        {
             class: "Kuma-class",
+            built: "Built: 1917-1921",
+            service: "In service: 1920-1946",
             ship1: "IJN Kuma",
             ship2: "IJN Tama",
             ship3: "IJN Kitakami",
@@ -801,6 +839,8 @@ let KMSship = [
         },
         {
             class: "Nagara-class",
+            built: "Built: 1920-1924",
+            service: "In service: 1922-1944",
             ship1: "IJN Nagara",
             ship2: "IJN Isuzu",
             ship3: "IJN Yura",
@@ -810,6 +850,8 @@ let KMSship = [
         },
         {   
             class: "Minekaze-class",
+            built: "Built: 1918-1922",
+            service: "In service: 1922-1944",
             ship1: "IJN Minekaze",
             ship2: "IJN Sawakaze",
             ship3: "IJN Okikaze",
@@ -921,13 +963,18 @@ let KMSship = [
     let RUSship = [
         {
             class: "Borodino-class",
-            ship1: "Imperator Aleksander III",
-            ship2: "Knyaz Suvorov",
-            ship3: "Oryol",
-            ship4: "Slava"
+            built: "Built: 1899-1905",
+            service: "In service: 1904-1922",
+            ship1: "Borodino",
+            ship2: "Imperator Aleksander III",
+            ship3: "Knyaz Suvorov",
+            ship4: "Oryol",
+            ship5: "Slava"
         },
         {
             class: "Gangut-class",
+            built: "Built: 1909-1914",
+            service: "In service: 1914-1917",
             ship1: "Gangut",
             ship2: "Petropavlovsk",
             ship3: "Sevastopol",
@@ -935,6 +982,7 @@ let KMSship = [
         },
         {
             class: "Admiral Nakhimov-class",
+            built: "Built: 1913-1932",
             ship1: "Admiral Nakhimov",
             ship2: "Admiral Kornilov",
             ship3: "Admiral Istomin",
@@ -1035,66 +1083,125 @@ let KMSship = [
     let USSRship = [
         {
             class: "Sovetsky Soyuz-class",
-            ship1: "Sovetsky Soyuz",
-            ship2: "Sovetskaya Ukraina",
-            ship3: "Sovetskaya Rossiya",
-            ship4: "Sovetskaya Belorussiya"
+            built: "Built: 1938-1941",
+            service: "In service: cancelled",
+            ship1: "VMF Sovetsky Soyuz",
+            ship2: "VMF Sovetskaya Ukraina",
+            ship3: "VMF Sovetskaya Rossiya",
+            ship4: "VMF Sovetskaya Belorussiya"
         },
         {
             class: "Gangut-class",
-            ship1: "Oktyabrskaya Revolyutsiya",
-            ship2: "Marat",
-            ship3: "Parizhskaya Kommuna",
-            ship4: "Frunze"
+            built: "Built: 1909-1914",
+            service: "In service: 1917-1956",
+            ship1: "VMF Oktyabrskaya Revolyutsiya",
+            ship2: "VMF Marat",
+            ship3: "VMF Parizhskaya Kommuna",
+            ship4: "VMF Frunze"
         },
         {
             class: "Admiral Nakhimov-class",
-            ship1: "Chervona Ukraina",
-            ship2: "Krazny Kavkaz"
+            built: "Built: 1913-1932",
+            service: "In service: 1927-1952",
+            ship1: "VMF Chervona Ukraina",
+            ship2: "VMF Krazny Kavkaz"
+        },
+        {
+            class: "Kirov-class",
+            built: "Built: 1935-1944",
+            service: "In service: 1938-1970",
+            ship1: "VMF Kirov",
+            ship2: "VMF Voroshilov",
+            ship3: "VMF Maxim Groky",
+            ship4: "VMF Molotov",
+            ship5: "VMF Kaganovich",
+            ship6: "VMF Kalinin"
+        },
+        {
+            class: "Chapayev-class",
+            built: "Built: 1939-1950",
+            service: "In service: 1950-1981",
+            ship1: "VMF Chapayev",
+            ship2: "VMF Zheleznyakov",
+            ship3: "VMF Kuybyshev",
+            ship4: "VMF Chkalov",
+            ship5: "VMF Frunze"
+        },
+        {
+            class: "Sverdlov-class",
+            built: "Built: 1949-1955",
+            service: "In service: 1952-2000",
+            ship1: "VMF Sverdlov",
+            ship2: "VMF Zhdanov",
+            ship3: "VMF Admiral Ushakov",
+            ship4: "VMF Aleksandr Suvorov",
+            ship5: "VMF Admiral Senyavin",
+            ship6: "VMF Dmitry Pozharsky",
+            ship7: "VMF Kronstadt",
+            ship8: "VMF Tallinn",
+            ship9: "VMF Varyag",
+            ship10: "VMF Ordzhonikidze",
+            ship11: "VMF Alexandr Nevsky",
+            ship12: "VMF Admiral Lazarev",
+            ship13: "VMF Shcherbakov",
+            ship14: "VMF Dzerzhinsky",
+            ship15: "VMF Admiral Nakhimov",
+            ship16: "VMF Mikhail Kutuzov",
+            ship17: "VMF Admiral Kornilov",
+            ship18: "VMF Oktyabrskaya Revolyutsia",
+            ship19: "VMF Murmansk",
+            ship20: "VMF Arkhangelsk",
+            ship21: "VMF Vladivostok"
         },
         {
             class: "Kashin-class",
-            ship1: "Komsomolets Ukrainy",
-            ship2: "Soobrazitelnyy",
-            ship3: "Provornyy",
-            ship4: "Obraztsovyy",
-            ship5: "Odarennyy",
-            ship6: "Otvazhnyy",
-            ship7: "Steregushchiy",
-            ship8: "Krasnyy Kavkaz",
-            ship9: "Reshitelnyy",
-            ship10: "Strogiy",
-            ship11: "Smetlivyy",
-            ship12: "Krasnyy Krym",
-            ship13: "Sposobnyy",
-            ship14: "Skoryy"
+            built: "Built: 1959-1986",
+            service: "In service: 1962-present",
+            ship1: "VMF Komsomolets Ukrainy",
+            ship2: "VMF Soobrazitelnyy",
+            ship3: "VMF Provornyy",
+            ship4: "VMF Obraztsovyy",
+            ship5: "VMF Odarennyy",
+            ship6: "VMF Otvazhnyy",
+            ship7: "VMF Steregushchiy",
+            ship8: "VMF Krasnyy Kavkaz",
+            ship9: "VMF Reshitelnyy",
+            ship10: "VMF Strogiy",
+            ship11: "VMF Smetlivyy",
+            ship12: "VMF Krasnyy Krym",
+            ship13: "VMF Sposobnyy",
+            ship14: "VMF Skoryy"
         },
         {
             class: "Town-class (on loan from UK)",
-            ship1: "Deyatelny (HMS Churchill)",
-            ship2: "Derzkiy (HMS Chelsea)",
-            ship3: "Zhyostky (HMS Roxborough)",
-            ship4: "Dostoyny (HMS St Albans)",
-            ship5: "Druzhny (HMS Lincoln)",
-            ship6: "Zharkiy (HMS Brighton)",
-            ship7: "Zhguchi (HMS Leamington)",
-            ship8: "Zhivuchiy (HMS Richmond)",
-            ship9: "Doblestny (HMS Georgetown)"
+            built: "Built: 1917-1920",
+            service: "In service: 1944-1952",
+            ship1: "VMF Deyatelny (HMS Churchill)",
+            ship2: "VMF Derzkiy (HMS Chelsea)",
+            ship3: "VMF Zhyostky (HMS Roxborough)",
+            ship4: "VMF Dostoyny (HMS St Albans)",
+            ship5: "VMF Druzhny (HMS Lincoln)",
+            ship6: "VMF Zharkiy (HMS Brighton)",
+            ship7: "VMF Zhguchi (HMS Leamington)",
+            ship8: "VMF Zhivuchiy (HMS Richmond)",
+            ship9: "VMF Doblestny (HMS Georgetown)"
         },
         {
             class: "Udaloy I-class",
-            ship1: "Udaloy",
-            ship2: "Vice-Admiral Kulakov",
-            ship3: "Marshal Vasilevsky",
-            ship4: "Admiral Zakharov",
-            ship5: "Admiral Spiridonov",
-            ship6: "Admiral Tributs",
-            ship7: "Marshal Shaposhnikov",
-            ship8: "Sevemorsk",
-            ship9: "Admiral Levchenko",
-            ship10: "Admiral Vinogradov",
-            ship11: "Admiral Kharlamov",
-            ship12: "Admiral Panteleyev"
+            built: "Built: 1977-1994",
+            service: "In service: 1980-present",
+            ship1: "VMF Udaloy",
+            ship2: "VMF Vice-Admiral Kulakov",
+            ship3: "VMF Marshal Vasilevsky",
+            ship4: "VMF Admiral Zakharov",
+            ship5: "VMF Admiral Spiridonov",
+            ship6: "VMF Admiral Tributs",
+            ship7: "VMF Marshal Shaposhnikov",
+            ship8: "VMF Sevemorsk",
+            ship9: "VMF Admiral Levchenko",
+            ship10: "VMF Admiral Vinogradov",
+            ship11: "VMF Admiral Kharlamov",
+            ship12: "VMF Admiral Panteleyev"
         }];
     
     let USSRshipList = document.getElementById("USSRshiplist");
