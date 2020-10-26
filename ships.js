@@ -757,8 +757,8 @@ let KMSship = [
             ship1: "IJN Unryū",
             ship2: "IJN Amagi",
             ship3: "IJN Katsuragi",
-            ship4: "Kasagi",
-            ship5: "Aso",
+            ship4: "IJN Kasagi",
+            ship5: "IJN Aso",
         },
         {   
             class: "Yamato-class",
@@ -1329,6 +1329,104 @@ let KMSship = [
             ship1: "FN Richeliu",
             ship2: "FN Jean Bart",
             ship3: "FN Clemenceau"
+        },
+        {
+            class: "Duquesne-class",
+            built: "Built: 1924-1928",
+            service: "In service: 1928-1950",
+            ship1: "FN Duquesne",
+            ship2: "FN Tourville"
+        },
+        {
+            class: "Suffren-class",
+            built: "Built: Unknown",
+            service: "In service: 1930-1947",
+            ship1: "FN Suffren",
+            ship2: "FN Colbert",
+            ship3: "FN Dupleix",
+            ship4: "FN Foch"
+        },
+        {
+            class: "La Galissonnière-class",
+            built: "Built: Unknown",
+            service: "In service: 1937-1958",
+            ship1: "FN La Galissonnière",
+            ship2: "FN Montcalm",
+            ship3: "FN Georges Leygues",
+            ship4: "FN Jean de Vienne",
+            ship5: "FN Marseillaise",
+            ship6: "FN Gloire"
+        },
+        {
+            class: "Guépard-class",
+            built: "Built: 1927-1931",
+            service: "In service: 1929-1945",
+            ship1: "FN Bison",
+            ship2: "FN Guépard",
+            ship3: "FN Lion",
+            ship4: "FN Valmy",
+            ship5: "FN Verdun",
+            ship6: "FN Vauban"
+        },
+        {
+            class: "Aigle-class",
+            built: "Built: unknown-1934",
+            service: "In service: 1929-1959",
+            ship1: "FN Aigle",
+            ship2: "FN Vautour",
+            ship3: "FN Albatros",
+            ship4: "FN Gerfaut",
+            ship5: "FN Milan",
+            ship6: "FN Épervier"
+        },
+        {
+            class: "Vauquelin-class",
+            built: "Built: 1930-1934",
+            service: "In service: 1933-1942",
+            ship1: "FN Vauquelin",
+            ship2: "FN Kersaint",
+            ship3: "FN Cassard",
+            ship4: "FN Tartu",
+            ship5: "FN Maillé Brézé",
+            ship6: "FN Le Chevalier Paul"
+        },
+        {
+            class: "Le Fantasque-class",
+            built: "Built: 1931-1936",
+            service: "In service: 1935-1963",
+            ship1: "FN L'Audacieux",
+            ship2: "FN Le Malin",
+            ship3: "FN Le Terrible",
+            ship4: "FN Le Triomphant",
+            ship5: "FN L'Indomptable"
+        },
+        {
+            class: "Mogador-class",
+            built: "Built: 1934-1938",
+            service: "In service: 1939-1942",
+            ship1: "FN Mogador",
+            ship2: "FN Volta",
+            ship3: "FN Kléber",
+            ship4: "FN Desaix",
+            ship5: "FN Hoche",
+            ship6: "FN Marceau"
+        },
+        {
+            class: "Le Hardi-class",
+            built: "Built: 1936-1947",
+            service: "In service: 1940-1942",
+            ship1: "FN Le Hardi",
+            ship2: "FN Fleuret",
+            ship3: "FN Épée",
+            ship4: "FN Mameluk",
+            ship5: "FN Casque",
+            ship6: "FN Lansquenet",
+            ship7: "FN Le Flibustier",
+            ship8: "FN Le Corsaire",
+            ship9: "FN L'Intrépide",
+            ship10: "FN Le Téméraire",
+            ship11: "FN L'Opiniâtre",
+            ship12: "FN L'Aventurier"
         }];
 
     let FNshipList = document.getElementById("FNshiplist");
