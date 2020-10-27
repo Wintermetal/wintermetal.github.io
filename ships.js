@@ -923,22 +923,48 @@ let FNship = [
 
 let LRNship = [
     {
-        class: "Comodo-class",
-        built: "Built: 1912-1916",
-        service: "In service: 1916-1953",
-        ship1: "FN Bretagne",
-        ship2: "FN Lorraine",
-        ship3: "FN Provence",
-        ship4: "FN Vasilefs Konstantinos"
+        class: "Leaper-class",
+        ship1: "LRNS Leaper",
+        ship2: "LRNS Jumper",
+        ship3: "LRNS Springer",
+        ship4: "LRNS Hopper",
+        ship5: "LRNS Bouncer",
+        ship6: "LRNS Bounder",
+        ship6: "LRNS Skipper",
+        ship6: "LRNS Prancer",
+        ship6: "LRNS Gamboller",
+        ship6: "LRNS Frolicker",
+        ship6: "LRNS Cavorter",
     },
     {
-        class: "Bretagne-class",
-        built: "Built: 1912-1916",
-        service: "In service: 1916-1953",
-        ship1: "FN Bretagne",
-        ship2: "FN Lorraine",
-        ship3: "FN Provence",
-        ship4: "FN Vasilefs Konstantinos"
+        class: "Komodo-class",
+        ship1: "LRNS Komodoensis",
+        ship2: "LRNS Flavescens",
+        ship3: "LRNS Griseus",
+        ship4: "LRNS Nebulosus",
+        ship5: "LRNS Bengalensis"
+    },
+/*    {
+        class: "-class",
+        ship1: "LRNS ",
+        ship2: "LRNS ",
+        ship3: "LRNS ",
+        ship4: "LRNS "
+    },*/
+    {
+        class: "M-class",
+        ship1: "LRNS M-class Miner",
+        ship2: "LRNS M-class Courier",
+        ship3: "LRNS M-class Carrier",
+        ship4: "LRNS M-class Builder",
+        ship5: "LRNS M-class Fighter"
+    },
+    {
+        class: "S-class",
+        ship1: "LRNS S-class Fregate",
+        ship2: "LRNS S-class Fighter",
+        ship3: "LRNS S-class Grinder",
+        ship4: "LRNS S-class Builder"
     }];
 
     // Royal Marine
