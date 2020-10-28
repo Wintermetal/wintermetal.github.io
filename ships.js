@@ -944,13 +944,15 @@ let LRNship = [
         ship4: "LRNS Nebulosus",
         ship5: "LRNS Bengalensis"
     },
-/*    {
-        class: "-class",
-        ship1: "LRNS ",
-        ship2: "LRNS ",
-        ship3: "LRNS ",
-        ship4: "LRNS "
-    },*/
+    {
+        class: "Laden-class",
+        ship1: "LRNS Laden",
+        ship2: "LRNS Latent",
+        ship3: "LRNS Laudable",
+        ship4: "LRNS Laurel",
+        ship5: "LRNS Legible",
+        ship6: "LRNS Liquidator"
+    },
     {
         class: "M-class",
         ship1: "LRNS M-class Miner",
