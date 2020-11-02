@@ -1,0 +1,41 @@
+export let Pirkka = [
+    {   wkp: "Ma",
+        date: "21.9.2020",
+        ruoka: "Nakkikastike",
+        lisä: "Peruna",
+        rehu: "Kasvisnakkikastike",
+        juoma: "Maito",
+        kuva:"https://wintermetal.github.io/tin_of_beans.jpg"
+    },
+    {   wkp: "Ti",
+        date: "22.9.2020",
+        ruoka: "Jauhelihalasagnette",
+        lisä: "",
+        rehu: "Kasvislasagnette",
+        juoma: "Maito",
+        kuva:"https://wintermetal.github.io/tin_of_beans.jpg"
+    },
+    {   wkp: "Ke",
+        date: "23.9.2020",
+        ruoka: "Juustoinenkalakeitto",
+        lisä: "Ruisbuigula",
+        rehu: "Pinaattikeitto",
+        juoma: "Maito",
+        kuva:"https://wintermetal.github.io/tin_of_beans.jpg"
+    },
+    {   wkp: "To",
+        date: "24.9.2020",
+        ruoka: "Kebabkiusaus",
+        lisä: "",
+        rehu: "Juustoinen kasviskiusaus",
+        juoma: "Maito",
+        kuva:"https://wintermetal.github.io/tin_of_beans.jpg"
+    },
+    {   wkp: "Pe",
+        date: "25.9.2020",
+        ruoka: "Broileria kiinalaiseen tapaan",
+        lisä: "Tumma riisi",
+        rehu: "Tahitilainen quornkasviskastike",
+        juoma: "Maito",
+        kuva:"https://wintermetal.github.io/tin_of_beans.jpg"
+    }]

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>DOM demo 1 ja 2</title>
+        <script type="text/javascript" src="domdemo1.js"></script>
+        <style>
+            body {
+                background-color: #e1c699;
+                color: #000000;
+                font-family: 'trebuchet MS'
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Harjoitellaan elementtien käyttämistä</h1>
+        <div class heippanappi>
+            <button onclick='heippanappi()'>Heippanappi</button>
+        </div>
+        <p class="message">Muunna tämä teksti</p>
+        <a id='info' href="http://is.fi">Iltasanomat</a><br>
+        <input id='name'></input>
+        <button onclick='greetings()'>GO!</button>
+        <h2 id='greeting'>Anna nimesi</h2>
+        <script>
+            document.querySelector("#info").addEventListener("click", function(ev){
+            ev.preventDefault();
+            location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+            });
+        </script>
+    </body>
+</html>

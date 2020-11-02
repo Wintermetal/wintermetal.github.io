@@ -1,0 +1,24 @@
+body {
+    background-color: #e1c699;
+    color: #000000;
+    font-family: 'trebuchet MS', 'Comic sans';
+    text-align: center;
+}
+img {
+    max-width:50%;
+    max-height:50%;
+}
+.pirkkalist {
+    text-align: center;
+}
+.pirkka {
+    border-style: solid;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-width: 1px;
+    border-radius: 15px;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    background: #ffffff;
+}
