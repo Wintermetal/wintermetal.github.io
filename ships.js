@@ -967,6 +967,15 @@ let LRNship = [
         ship2: "LRNS S-class Fighter",
         ship3: "LRNS S-class Grinder",
         ship4: "LRNS S-class Builder"
+    },
+    {
+        class: "Leucopsis-class",
+        ship1: "LRNS Leucopsis",
+        ship2: "LRNS Bernicla",
+        ship3: "LRNS Ruficollis",
+        ship4: "LRNS Canadensis",
+        ship5: "LRNS Sandvicensis",
+        ship6: "LRNS Hutchinsii"
     }];
 
     // Royal Marine
