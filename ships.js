@@ -147,8 +147,8 @@ let HMSship = [
         ship1: "HMS Minotaur",
         ship2: "HMS Swiftsure",
         ship3: "HMS Superb",
-        ship4: "HMS Hawke",
-        ship5: "HMS Bellerophon"
+        ship4: "HMS Hawke*",
+        ship5: "HMS Bellerophon*"
     },
     {   
         class: "Laforey-class",
@@ -314,6 +314,15 @@ let HMSship = [
 
 let SMSship = [
     {    
+        class: "Mackensen-class",
+        built: "Built: 1914-1919",
+        service: "In service: Cancelled",
+        ship1: "SMS Mackensen*",
+        ship2: "SMS Graf Spee*",
+        ship3: "SMS Prinz Eitel Friedrich*",
+        ship4: "SMS Fürst Bismarck*"
+    },
+    { 
         class: "Helgoland-class",
         built: "Built: 1908-1912",
         service: "In service: 1911-1920",
@@ -356,8 +365,8 @@ let SMSship = [
         service: "In service: 1916-1919",
         ship1: "SMS Bayern",
         ship2: "SMS Baden",
-        ship3: "SMS Sachen",
-        ship4: "SMS Wüttemberg"
+        ship3: "SMS Sachen*",
+        ship4: "SMS Wüttemberg*"
     }];
 
 let KMSship = [
@@ -390,8 +399,8 @@ let KMSship = [
         ship1: "KMS Admiral Hipper",
         ship2: "KMS Blücher",
         ship3: "KMS Prinz Eugen",
-        ship4: "KMS Seydlitz",
-        ship5: "KMS Lützow"
+        ship4: "KMS Seydlitz*",
+        ship5: "KMS Lützow*"
     },
     {   
         class: "Zerstörer 1934",
@@ -462,29 +471,29 @@ let KMSship = [
         ship1: "KMS Z35",
         ship2: "KMS Z36",
         ship3: "KMS Z43",
-        ship4: "KMS Z44",
-        ship5: "KMS Z45"
+        ship4: "KMS Z44*",
+        ship5: "KMS Z45*"
     },
     {
         class: "Zerstörer 1936C",
         built: "Built: 1942-cancelled",
-        ship1: "KMS Z46",
-        ship2: "KMS Z47"
+        ship1: "KMS Z46*",
+        ship2: "KMS Z47*"
     },
     {
         class: "Zerstörer 1942",
         built: "Built: 1943-1945",
         service: "In service: Lost",
-        ship1: "KMS Z51"
+        ship1: "KMS Z51*"
     },
     {
         class: "Zerstörer 1944",
         built: "Built: 1943-cancelled",
-        ship1: "KMS Z52",
-        ship2: "KMS Z53",
-        ship3: "KMS Z54",
-        ship4: "KMS Z55",
-        ship5: "KMS Z56"
+        ship1: "KMS Z52*",
+        ship2: "KMS Z53*",
+        ship3: "KMS Z54*",
+        ship4: "KMS Z55*",
+        ship5: "KMS Z56*"
     },
     {   
         class: "Elbing-class",
@@ -532,7 +541,8 @@ let IJNship = [
         ship1: "IJN Yamato",
         ship2: "IJN Mushashi",
         ship3: "IJN Shinano",
-        ship4: "Warship Number 111 (IJN Kii)"
+        ship4: "Warship Number 111 (IJN Kii)*",
+        ship5: "Warship Number 797**"
     },
     {
         class: "Kongō-class",
@@ -589,8 +599,8 @@ let IJNship = [
         class: "Ibuki-class",
         built: "Built: 1942-1945",
         service: "In service: scrapped",
-        ship1: "IJN Ibuki",
-        ship2: "IJN No. 301"
+        ship1: "IJN Ibuki*",
+        ship2: "IJN No. 301*"
     },
     {
         class: "Kuma-class",
@@ -658,8 +668,8 @@ let RUSship = [
         class: "Admiral Nakhimov-class",
         built: "Built: 1913-1932",
         ship1: "Admiral Nakhimov",
-        ship2: "Admiral Kornilov",
-        ship3: "Admiral Istomin",
+        ship2: "Admiral Kornilov*",
+        ship3: "Admiral Istomin*",
         ship4: "Admiral Lazarev"
     }];
 
@@ -668,10 +678,10 @@ let USSRship = [
         class: "Sovetsky Soyuz-class",
         built: "Built: 1938-1941",
         service: "In service: cancelled",
-        ship1: "VMF Sovetsky Soyuz",
-        ship2: "VMF Sovetskaya Ukraina",
-        ship3: "VMF Sovetskaya Rossiya",
-        ship4: "VMF Sovetskaya Belorussiya"
+        ship1: "VMF Sovetsky Soyuz*",
+        ship2: "VMF Sovetskaya Ukraina*",
+        ship3: "VMF Sovetskaya Rossiya*",
+        ship4: "VMF Sovetskaya Belorussiya*"
     },
     {
         class: "Gangut-class",
@@ -708,7 +718,9 @@ let USSRship = [
         ship2: "VMF Zheleznyakov",
         ship3: "VMF Kuybyshev",
         ship4: "VMF Chkalov",
-        ship5: "VMF Frunze"
+        ship5: "VMF Frunze",
+        ship6: "VMF Ordzhinikidze*",
+        ship7: "VMF Sverdlov*"
     },
     {
         class: "Sverdlov-class",
@@ -720,26 +732,26 @@ let USSRship = [
         ship4: "VMF Aleksandr Suvorov",
         ship5: "VMF Admiral Senyavin",
         ship6: "VMF Dmitry Pozharsky",
-        ship7: "VMF Kronstadt",
-        ship8: "VMF Tallinn",
-        ship9: "VMF Varyag",
+        ship7: "VMF Kronstadt*",
+        ship8: "VMF Tallinn*",
+        ship9: "VMF Varyag*",
         ship10: "VMF Ordzhonikidze",
         ship11: "VMF Alexandr Nevsky",
         ship12: "VMF Admiral Lazarev",
-        ship13: "VMF Shcherbakov",
+        ship13: "VMF Shcherbakov*",
         ship14: "VMF Dzerzhinsky",
         ship15: "VMF Admiral Nakhimov",
         ship16: "VMF Mikhail Kutuzov",
-        ship17: "VMF Admiral Kornilov",
+        ship17: "VMF Admiral Kornilov*",
         ship18: "VMF Oktyabrskaya Revolyutsia",
         ship19: "VMF Murmansk",
-        ship20: "VMF Arkhangelsk",
-        ship21: "VMF Vladivostok"
+        ship20: "VMF Arkhangelsk*",
+        ship21: "VMF Vladivostok*"
     },
     {
         class: "Kashin-class",
         built: "Built: 1959-1986",
-        service: "In service: 1962-present",
+        service: "In service: 1962-2003",
         ship1: "VMF Komsomolets Ukrainy",
         ship2: "VMF Soobrazitelnyy",
         ship3: "VMF Provornyy",
@@ -753,7 +765,13 @@ let USSRship = [
         ship11: "VMF Smetlivyy",
         ship12: "VMF Krasnyy Krym",
         ship13: "VMF Sposobnyy",
-        ship14: "VMF Skoryy"
+        ship14: "VMF Skoryy",
+        ship15: "VMF Onevoy",
+        ship16: "VMF Stroynyy",
+        ship17: "VMF Slavnyy",
+        ship18: "VMF Smyshlenyy",
+        ship19: "ORP Warszawa",
+        ship20: "VMF Sderzhanny"
     },
     {
         class: "Town-class (on loan from UK)",
@@ -795,16 +813,16 @@ let FNship = [
         ship1: "FN Bretagne",
         ship2: "FN Lorraine",
         ship3: "FN Provence",
-        ship4: "FN Vasilefs Konstantinos"
+        ship4: "FN Vasilefs Konstantinos*"
     },
     {
         class: "Normandie-class",
         built: "Built: 1913-scrapped",
         service: "In service: scrapped",
-        ship1: "FN Normandie",
-        ship2: "FN Flandre",
-        ship3: "FN Gascogne",
-        ship4: "FN Languedoc",
+        ship1: "FN Normandie*",
+        ship2: "FN Flandre*",
+        ship3: "FN Gascogne*",
+        ship4: "FN Languedoc*",
         ship5: "FN Béarn"
     },
     {
@@ -820,7 +838,8 @@ let FNship = [
         service: "In service: 1940-1970",
         ship1: "FN Richeliu",
         ship2: "FN Jean Bart",
-        ship3: "FN Clemenceau"
+        ship3: "FN Clemenceau*",
+        ship4: "FN Gascogne*"
     },
     {
         class: "Duquesne-class",
