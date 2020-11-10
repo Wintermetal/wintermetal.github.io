@@ -18,13 +18,30 @@ let HMSship = [
         ship2: "HMS Indefatigable"
     },
     {   
+        class: "Bellerophon-class",
+        built: "Built: 1906-1909",
+        service: "In service: 1909-1923",
+        ship1: "HMS Bellerophon",
+        ship2: "HMS Superb",
+        ship3: "HMS Temeraire"
+    },
+    {   
+        class: "Orion-class",
+        built: "Built: 1909-1912",
+        service: "In service: 1912-1926",
+        ship1: "HMS Orion",
+        ship2: "HMS Monarch",
+        ship3: "HMS Conqueror",
+        ship4: "HMS Thunderer"
+    },
+    {   
         class: "Admiral-class",
         built: "Built: 1916-1920",
         service: "In service: 1920-1941",
         ship1: "HMS Hood",
-        ship2: "HMS Anson",
-        ship3: "HMS Howe",
-        ship4: "HMS Rodney"
+        ship2: "HMS Anson*",
+        ship3: "HMS Howe*",
+        ship4: "HMS Rodney*"
     },
     {   
         class: "Revenge-class",
@@ -44,7 +61,7 @@ let HMSship = [
         ship2: "HMS Repulse"
     },
     { 
-        class: "King George-class",
+        class: "King George V-class",
         built: "Built: 1936-1940",
         service: "In service: 1940-1951",
         ship1: "HMS King George V",
@@ -91,7 +108,7 @@ let HMSship = [
         ship6: "HMS Glouchester",
         ship7: "HMS Liverpool",
         ship8: "HMS Manchester",
-        ship9: "HMS Edinurgh",
+        ship9: "HMS Edinburgh",
         ship10: "HMS Belfast"
     },
     {
