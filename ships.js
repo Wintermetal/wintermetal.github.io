@@ -1012,6 +1012,15 @@ let LRNship = [
         ship4: "LRNS Canadensis",
         ship5: "LRNS Sandvicensis",
         ship6: "LRNS Hutchinsii"
+    },
+    {
+        class: "Lemuridae-class",
+        ship1: "LRNS Lemuridae",
+        ship2: "LRNS Cheirogaleidae",
+        ship3: "LRNS Daubentoniidae",
+        ship4: "LRNS Indriidae",
+        ship5: "LRNS Lepilemuridae",
+        ship6: "LRNS Megaladapidae"
     }];
 
     // Royal Marine
