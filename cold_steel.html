@@ -78,8 +78,8 @@
                                 <li>[UK](TD) <a href="https://en.wikipedia.org/wiki/FV4401_Contentious">FV4401 Contentious</a></li>
                                 <li>[US](LT) <a href="https://en.wikipedia.org/wiki/M22_Locust">M22 Locust</a> (Hamilcar)</li>
                                 <li>[US](LT) <a href="https://en.wikipedia.org/wiki/T92_Light_Tank">T92</a> (Lockheed C-130)</li>
-                                <li>[US](LT] <a href="https://en.wikipedia.org/wiki/M551_Sheridan">M551 Sheridan</a> (Lockheed C-130)</li>
-                                <!--<li>[US](LT) <a href="https://en.wikipedia.org/wiki/M8_Armored_Gun_System">XM8 AGS</a> (Lockheed C-130)</li> too new -->
+                                <li>[US](LT) <a href="https://en.wikipedia.org/wiki/M551_Sheridan">M551 Sheridan</a> (Lockheed C-130)</li>
+                                <!--<li>[US](LT) <a href="https://en.wikipedia.org/wiki/M8_Armored_Gun_System">XM8 AGS</a> (Lockheed C-130)</li> too modern -->
                                 <li>[US](TD) <a href="https://en.wikipedia.org/wiki/M56_Scorpion">M56 Scorpion</a> (Lockheed C-130)</li>
                                 <li>[SU](LT) </a><a href="https://en.wikipedia.org/wiki/T-60_tank">T-60</a> (Antonov A-40)</li>
                                 <li>[SU](LT) <a href="https://en.wikipedia.org/wiki/BMD-1">BMD-1</a> (An-12, Mi-6)</li>
@@ -140,88 +140,178 @@
                             <h4>Weaponry</h4>
                             <p>Bren (default)</p>
                             <ul>
-                                <li>DPM: 1886,22</li> <!--calculate autoloader dpm: (60/(Time to load + Empty Clip))*(Damage per Clip) (60/13,36)*(420)-->
-                                <li>Damage: 15</li>
-                                <li>Mag Damage: 420 / 3,24 sec</li>
+                                <li>Ammo: .303 British</li>
+                                <li>Capacity: 280 rnds</li>
+                                <li>DPM: 1754,87</li> <!--calculate autoloader dpm: (60/(Time to load + Empty Clip))*(Damage per Clip) (60/14,36)*(420)-->
+                                <li>Damage: 13</li>
+                                <li>Mag Damage: 364 / 3,24 sec</li>  <!--calculate unload: ((Mag size -1) * Intra-mag reload)-->
                                 <li>Mag size: 28</li>
                                 <li>Intra-mag Reload: 0,12 sec</li>
                                 <li>Reload: 10 sec</li>
-                                <li>Rate of Fire: 125,7 rnds/min</li> <!--calculate autoloader RoF: (60/(Time to load + Empty Clip))*(Clip size)-->
+                                <li>Rate of Fire: 117 rnds/min</li> <!--calculate autoloader RoF: (60/(Time to load + Empty Clip))*(Clip size)-->
                                 <li>Muzzle velocity: 743.7 m/s</li>
+                                <li>Range: 1690 m</li>
+                            </ul>
+                            <p>Breda Modello 38</p>
+                            <ul>
+                                <li>Ammo: 8×59mm RB Breda</li>
+                                <li>Capacity: 240 rnds</li>
+                                <li>DPM: 1912,35</li> <!--calculate autoloader dpm: (60/(Time to load + Empty Clip))*(Damage per Clip) (60/7,53)*(240)-->
+                                <li>Damage: 10</li>
+                                <li>Clip Damage: 240 / 2,53 sec</li>  <!--calculate unload: ((Mag size -1) * Intra-mag reload)-->
+                                <li>Clip size: 24</li>
+                                <li>Intra-clip Reload: 0,11 sec</li>
+                                <li>Reload: 5 sec</li>
+                                <li>Rate of Fire: 191,23 rnds/min</li> <!--calculate autoloader RoF: (60/(Time to load + Empty Clip))*(Clip size)-->
+                                <li>Muzzle velocity: 800 m/s</li>
+                                <li>Range: 1000 m</li>
+                            </ul>
+                            <p>M2 Browning</p>
+                            <ul>
+                                <li>Ammo: M33 Ball</li>
+                                <li>Capacity: 200</li>
+                                <li>DPM: 2105,75</li> <!--calculate autoloader dpm: (60/(Time to load + Empty Clip))*(Damage per Clip) (60/21,37)*(750)-->
+                                <li>Damage: 15 </li>
+                                <li>Clip Damage: 750 / 6,37 sec</li>  <!--calculate unload: ((Mag size -1) * Intra-mag reload)-->
+                                <li>Clip size: 50</li>
+                                <li>Intra-clip Reload: 0,13 sec</li>
+                                <li>Reload: 15 sec</li>
+                                <li>Rate of Fire: 450 rnds/min</li> <!--calculate autoloader RoF: (60/(Time to load + Empty Clip))*(Clip size)-->
+                                <li>Muzzle velocity:  m/s</li>
+                                <li>Range: 1800 m</li>
                             </ul>
                             <p>Boys AT</p>
                             <ul>
-                                <li>DPM: 1800</li> <!--calculate autoloader dpm: (60/(Time to load + Empty Clip))*(Damage per Clip) (60/30)*(900)-->
-                                <li>Damage: 180</li>
-                                <li>Mag Damage: 900 / 12 sec</li>
+                                <li>Ammo: W Mark.1 | W Mark.2</li>
+                                <li>Capacity: 50 rnds</li>
+                                <li>DPM: 1800|1700</li> <!--calculate autoloader dpm: (60/(Time to load + Empty Clip))*(Damage per Clip) (60/30)*(900)-->
+                                <li>Damage: 180|170</li>
+                                <li>Mag Damage: 900|850 / 12 sec</li> <!--calculate unload: ((Mag size -1) * Intra-mag reload)-->
                                 <li>Mag size: 5</li>
                                 <li>Intra-mag Reload: 3 sec</li>
                                 <li>Reload: 18 sec</li>
                                 <li>Rate of Fire: 10 rnds/min</li> <!--calculate autoloader RoF: (60/(Time to load + Empty Clip))*(Clip size)-->
-                                <li>Muzzle velocity: 884 m/s</li>
+                                <li>Muzzle velocity: 747|945 m/s</li>
+                                <li>Range: 460|1000 m</li>
                             </ul>
                             <p>lads ("SMLE no. 4" x6)</p>
                             <ul>
+                                <li>Ammo: .303 British</li>
+                                <li>Capacity: 600 rnds</li>
                                 <li>DPM: 2117,65 (Single: 353)</li> <!--calculate autoloader dpm: (60/(Time to load + Empty Clip))*(Damage per Clip) ((60/25,5)*(150)*6)-->
                                 <li>Damage: 90 (Single: 15)</li> <!--15, 30, 45, 60, 75, 90-->
-                                <li>Mag Damage: 900 (Single: 150) / 13,5 sec</li>
+                                <li>Mag Damage: 900 (Single: 150) / 13,5 sec</li>  <!--calculate unload: ((Mag size -1) * Intra-mag reload)-->
                                 <li>Mag size: 60 (Single: 10)</li>
                                 <li>Intra-mag Reload: 1,5 sec</li>
                                 <li>Reload: 12 sec</li>
                                 <li>Rate of Fire: 141,17 (Single 23,5) rnds/min</li> <!--calculate autoloader RoF: (60/(Time to load + Empty Clip))*(Clip size) (60/(25,5)*(10))-->
                                 <li>Muzzle velocity: 744 m/s</li>
+                                <li>Range: 2743 m</li>
                             </ul>
-                            <p>20mm Flak 38</p>
+                            <p>2 cm Flak 38</p>
                             <ul>
-                                <li>DPM: </li> <!--calculate autoloader dpm: (60/(Time to load + Empty Clip))*(Damage per Clip) (60/13,36)*(420)-->
-                                <li>Damage: </li>
-                                <li>Mag Damage:  /  sec</li>
+                                <li>Ammo: Panzergranatpatrone L'spur mit Zerleger | Panzersprenggranatpatrone L'spur mit Zerleger (Kriegsmarine)</li>
+                                <li>Capacity: 700 rnds</li>
+                                <li>DPM: 1843,88|1475,1</li> <!--calculate autoloader dpm: (60/(Time to load + Empty Clip))*(Damage per Clip) (60/16,27)*(500)-->
+                                <li>Damage: 25|20</li>
+                                <li>Mag Damage: 500|400 / 6,27 sec</li>  <!--calculate unload: ((Mag size -1) * Intra-mag reload)-->
                                 <li>Mag size: 20</li>
-                                <li>Intra-mag Reload:  sec</li>
-                                <li>Reload:  sec</li>
+                                <li>Intra-mag Reload: 0,33 sec</li>
+                                <li>Reload: 10 sec</li>
                                 <li>Rate of Fire: 180 rnds/min</li> <!--calculate autoloader RoF: (60/(Time to load + Empty Clip))*(Clip size)-->
-                                <li>Muzzle velocity: 900 m/s</li>
-                                <li>Range: 1000 m</li>
+                                <li>Muzzle velocity: 500|400 m/s</li>
+                                <li>Range: 1000|1800 m</li>
                             </ul>
                             <p>QF 2 pdr AT Gun Mk. IX</p>
                             <ul>
-                                <li>DPM: 1971,43</li> <!--calculate DPM: (Damage * RoF)-->
-                                <li>Damage: 230</li>
-                                <li>Reload: 7 sec</li> <!--calculate reload: (60/RoF)-->
-                                <li>Rate of Fire: 8,57 rnds/min</li>
-                                <li>Muzzle velocity: 792 m/s</li>
+                                <li>Ammo: AP Mk.1T | APCNR Mk.1</li>
+                                <li>Capacity: 35 rnds</li>
+                                <li>DPM: 2029,41|1764</li> <!--calculate DPM: (Damage * RoF)-->
+                                <li>Damage: 230|200</li>
+                                <li>Reload: 6,8 sec</li> <!--calculate reload: (60/RoF)-->
+                                <li>Rate of Fire: 8,82 rnds/min</li>
+                                <li>Muzzle velocity: 792|990 m/s</li>
+                                <li>Range: 1000 m</li>
                             </ul>
-                            <p>QF 2 pdr Gun Mk. X</p>
+                            <p>Ordnance QF 2 pdr Gun Mk. X</p>
                             <ul>
-                                <li>DPM: 1920</li> <!--calculate DPM: (Damage * RoF)-->
-                                <li>Damage: 240</li>
-                                <li>Reload: 7,5 sec</li> <!--calculate reload: (60/RoF)-->
-                                <li>Rate of Fire: 8 rnds/min</li>
-                                <li>Muzzle velocity: 1,341 m/s</li>
+                                <li>Ammo: APCBC Mk.IXBT | APCNR Mk.2</li>
+                                <li>Capacity: 35 rnds</li>
+                                <li>DPM: 2000|1666</li> <!--calculate DPM: (Damage * RoF)-->
+                                <li>Damage: 240|200</li>
+                                <li>Reload: 7,2 sec</li> <!--calculate reload: (60/RoF)-->
+                                <li>Rate of Fire: 8,33 rnds/min</li>
+                                <li>Muzzle velocity: 792|1,341 m/s</li>
+                                <li>Range: 1000 m</li>
                             </ul>
                             <p>3,7 cm Pak 36</p>
                             <ul>
-                                <li>DPM: </li> <!--calculate DPM: (Damage * RoF)-->
-                                <li>Damage: 270</li>
-                                <li>Reload:  sec</li> <!--calculate reload: (60/RoF)-->
-                                <li>Rate of Fire:  rnds/min</li>
-                                <li>Muzzle velocity: 762 m/s</li>
+                                <li>Ammo: Pzgr | Pzgr 40 </li>
+                                <li>Capacity: 30 rnds</li>
+                                <li>DPM: 1975,6|1875</li> <!--calculate DPM: (Damage * RoF)-->
+                                <li>Damage: 270|250</li>
+                                <li>Reload: 8,2 sec</li> <!--calculate reload: (60/RoF)-->
+                                <li>Rate of Fire: 7,5 rnds/min</li> <!--calculate RoF: (60/Reload)-->
+                                <li>Muzzle velocity: 745|1020 m/s</li>
+                                <li>Range: 1500 m</li>
                             </ul>
                             <p>QF 6 pdr 8 cwt AT Gun Mk. I</p>
                             <ul>
-                                <li>DPM: 1827,2</li> <!--calculate DPM: (Damage * RoF)-->
-                                <li>Damage: 320</li>
+                                <li>Ammo: Steel Shell HSCT | Steel Shell NF</li>
+                                <li>Capacity: 25</li>
+                                <li>DPM: 1827,2|1713</li> <!--calculate DPM: (Damage * RoF)-->
+                                <li>Damage: 320|300</li>
                                 <li>Reload: 10 sec</li> <!--calculate reload: (60/RoF)-->
                                 <li>Rate of Fire: 5,71 rnds/min</li>
-                                <li>Muzzle velocity: 538 m/s</li>
+                                <li>Muzzle velocity: 538|673 m/s</li>
+                                <li>Range: 3700 m</li>
                             </ul>
                             <p>Canon de 75 modèle 1897</p>
                             <ul>
-                                <li>DPM: 1729,41</li> <!--calculate DPM: (Damage * RoF)-->
-                                <li>Damage: 490</li>
+                                <li>Ammo: HE mle.1897 | Shrapnel mle.1913</li>
+                                <li>Capacity: 20 rnds</li>
+                                <li>DPM: 1729,41|1712,05</li> <!--calculate DPM: (Damage * RoF)-->
+                                <li>Damage: 490|485</li>
                                 <li>Reload: 17 sec</li> <!--calculate reload: (60/RoF)-->
                                 <li>Rate of Fire: 3,53 rnds/min</li>
-                                <li>Muzzle velocity: 500 m/s</li>
+                                <li>Muzzle velocity: 500|535 m/s</li>
+                                <li>Range: 8500|6800 m</li>
+                            </ul>
+                            <p>3-inch Smith Gun</p>
+                            <ul>
+                                <li>Ammo: AP Mk.2T | HE Mk.2B</li>
+                                <li>Capacity: 20 rnds</li>
+                                <li>DPM: 1760|1840 </li> <!--calculate DPM: (Damage * RoF)-->
+                                <li>Damage: 440|460</li>
+                                <li>Reload: 15 sec</li> <!--calculate reload: (60/RoF)-->
+                                <li>Rate of Fire: 4 rnds/min</li>
+                                <li>Muzzle velocity: 762|535 m/s</li>
+                                <li>Range: 1500 m</li>
+                            </ul>
+                            <p>Ordnance ML 3-inch mortar</p>
+                            <ul>
+                                <li>Ammo: HE Mk.1C</li>
+                                <li>Capacity: 20 rnds</li>
+                                <li>DPM: 1650</li> <!--calculate DPM: (Damage * RoF)-->
+                                <li>Damage: 550</li>
+                                <li>Reload: 20 sec</li> <!--calculate reload: (60/RoF)-->
+                                <li>Rate of Fire: 3 rnds/min</li>
+                                <li>Muzzle velocity: 200 m/s</li>
+                                <li>Range: 200-2800 m</li>
+                            </ul>
+                            <p>Wasp</p>
+                            <ul>
+                                <li>Ammo: Petroleum </li>
+                                <li>Capacity: 378,54118 L (100 Gal) / 25 (1 sec bursts)</li>
+                                <li>DPM: 2777,78 + afterburn</li> <!--calculate autoloader dpm: (60/(Time to load + Empty Clip))*(Damage per Clip) (60/108)*(5000)-->
+                                <li>Damage: 200 + afterburn</li>
+                                <li>Mag Damage: 5000 + afterburn / 48 sec</li>  <!--calculate unload: ((Mag size -1) * Intra-mag reload)-->
+                                <li>Mag size: 25 (1 sec bursts)</li>
+                                <li>Intra-mag Reload: 2 sec</li>
+                                <li>Reload: 60 sec</li>
+                                <li>Rate of Fire: 1080 L/min</li>
+                                <li>Muzzle velocity: 30 m/s</li>
+                                <li>Range: 110 m</li>
                             </ul>
                             <h3>Choose your battle</h3>
                         </div>
