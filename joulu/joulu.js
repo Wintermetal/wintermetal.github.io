@@ -10,15 +10,15 @@ link1.style.display = "none";
 link2.style.display = "none";
 link3.style.display = "none";
 
-no1.addEventListener("mouseover", () => changeColor(no1, "#e1c699"));
+no1.addEventListener("mouseover", () => changeColor(no1, "#E8282C"));
 no1.addEventListener("mouseout", () => changeColor(no1, "#000000"));
 no1.addEventListener("click", () => toggleData(link1));
 
-no2.addEventListener("mouseover", () => changeColor(no2, "#e1c699"));
+no2.addEventListener("mouseover", () => changeColor(no2, "#E8282C"));
 no2.addEventListener("mouseout", () => changeColor(no2, "#000000"));
 no2.addEventListener("click", () => toggleData(link2));
 
-no3.addEventListener("mouseover", () => changeColor(no3, "#e1c699"));
+no3.addEventListener("mouseover", () => changeColor(no3, "#6B8E23"));
 no3.addEventListener("mouseout", () => changeColor(no3, "#000000"));
 no3.addEventListener("click", () => toggleData(link3));
 

@@ -74,6 +74,10 @@ header.masthead {
   background-attachment: scroll;
 }
 
+header.joulu {
+  background-color: #E8282C !important;
+}
+
 header.masthead .masthead-content {
   z-index: 1;
   position: relative;
