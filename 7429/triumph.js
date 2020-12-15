@@ -3,8 +3,8 @@ var yoink = console.log;
 let k18info = [
     {
         list: "K-18 Information",
-        slot1: "Breast size: ~34DDD",
-        slot2: "Band/Bust/Waist: 86/101/76 cm (34/40/30 in)",
+        slot1: "Breast size: 34FF (UK), 34H (US/CA)",
+        slot2: "Band/Bust/Waist: 86/106/81 cm (34/42/32 in)",
         slot3: "Dom/Sub/Switch: Mainly sub, but can switch of necessary.",
         slot4: "Turn ons: Sailors, Taking orders, Taller men, Strong men, Gangbang",
         slot5: "Turn offs: Blood in places blood shouldn't be, scat, shorter men, communism, Soviet Union",
