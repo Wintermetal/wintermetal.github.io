@@ -7,7 +7,7 @@ let k18info = [
         slot2: "Band/Bust/Waist: 86/106/81 cm (34/42/32 in)",
         slot3: "Dom/Sub/Switch: Mainly sub, but can switch of necessary.",
         slot4: "Turn ons: Sailors, Taking orders, Taller men, Strong men, Gangbang",
-        slot5: "Turn offs: Blood in places blood shouldn't be, scat, shorter men, communism, Soviet Union",
+        slot5: "Turn offs: Blood in places blood shouldn't be, scat, shorter men",
         slot6: "Sexuality: Straight",
         slot7: "Gender Preference: Male (or anyone with a dick)"
     }];
