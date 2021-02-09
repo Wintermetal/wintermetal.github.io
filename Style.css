@@ -15,6 +15,24 @@ a :visited {
 .img-patch {
     height: 400px;
 }
+.img-h1 {
+  height: 2em
+}
+.img-h2 {
+  height: 1.5em
+}
+.img-h3 {
+  height: 1.17em
+}
+.img-h4 {
+  height: 1em
+}
+.img-h5 {
+  height: .83em
+}
+.img-h6 {
+  height: .67em
+}
 
 h1,
 h2,
