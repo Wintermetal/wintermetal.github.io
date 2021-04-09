@@ -7,5 +7,5 @@ function taikanappi() {
     }
 };
 function adbutton() {
-    open("./ads/" + (Math.floor(Math.random() * 7)) + ".jpg");
+    open("./ads/" + (Math.floor(Math.random() * 32)) + ".webp");
 };
