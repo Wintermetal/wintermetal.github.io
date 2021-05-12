@@ -99,6 +99,21 @@ header.joulu {
   background-color: #E8282C !important;
 }
 
+header.index {
+  background-color: #e1c699 !important;
+  background-image: url("./snowrunner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.snowrunner {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center !important;
+  font-weight: bold;
+  color: #ffffff;
+}
+
 header.masthead .masthead-content {
   z-index: 1;
   position: relative;
