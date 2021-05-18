@@ -12,7 +12,7 @@ function adbutton() {
 /*--------------- Snowrunner ---------------*/
 
 // The data/time we want to countdown to
-var countDownDate = new Date("May 18, 2021 17:00:00").getTime();
+var countDownDate = new Date("May 18, 2021 03:05:00").getTime();
 
 // Run myfunc every second
 var myfunc = setInterval(function() {
