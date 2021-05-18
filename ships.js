@@ -659,6 +659,31 @@ let IJNship = [
         ship13: "IJN Nokaze",
         ship14: "IJN Namikaze",
         ship15: "IJN Numakaze"
+    },
+    {   
+        class: "Kagerō-class",
+        built: "Built: 1937-1941",
+        service: "In service: 1939-1947",
+        ship1: "IJN Kagerō",
+        ship2: "IJN Shiranui",
+        ship3: "IJN Kuroshio",
+        ship4: "IJN Oyashio",
+        ship5: "IJN Hayashio",
+        ship6: "IJN Natsushio",
+        ship7: "IJN Hatsukaze",
+        ship8: "IJN Yukikaze",
+        ship9: "IJN Amatsukaze",
+        ship10: "IJN Tokitsukaze",
+        ship11: "IJN Urakaze",
+        ship12: "IJN Isokaze",
+        ship13: "IJN Hamakaze",
+        ship14: "IJN Tanikaze",
+        ship15: "IJN Nowaki",
+        ship16: "IJN Arashi",
+        ship17: "IJN Hagikaze",
+        ship18: "IJN Maikaze",
+        ship19: "IJN Akigumo",
+        ship20: "IJN Harekaze**"
     }];
 
 let RUSship = [
