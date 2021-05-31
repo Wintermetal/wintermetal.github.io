@@ -10,7 +10,7 @@ function adbutton() {
     open("./ads/" + (Math.floor(Math.random() * 32)) + ".webp");
 };
 /*--------------- Snowrunner ---------------*/
-
+/*
 // The data/time we want to countdown to
 var countDownDate = new Date("May 18, 2021 03:05:00").getTime();
 
@@ -42,3 +42,4 @@ if (timeleft < 0) {
     document.getElementById("end").innerHTML = "Snowrunner has been released on Steam";
 }
 }, 1000);
+*/
