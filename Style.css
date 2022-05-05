@@ -41,6 +41,10 @@ a :visited {
   background-color:#AA7D55 !important;
 }
 
+.middle-text {
+  text-align:center !important;
+}
+
 h1,
 h2,
 h3,
